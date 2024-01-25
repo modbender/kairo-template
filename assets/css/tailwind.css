@@ -1,0 +1,6 @@
+/* In case you want your own CSS - delete if not using */
+/* Automatically added to nuxt.config.ts */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
