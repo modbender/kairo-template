@@ -30,33 +30,35 @@
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
-            >
-              <Icon
-                class="lg:text-gray-300 text-gray-500"
-                name="mdi:facebook"
-                size="24"
-              />
-              <span class="lg:hidden inline-block ml-2">Share</span>
-            </a>
-          </li>
-          <li class="flex items-center">
-            <a
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
+              :href="$config.public.socialLinks.x"
             >
               <Icon
                 class="lg:text-gray-300 text-gray-500"
                 name="mdi:twitter"
                 size="24"
               />
-              <span class="lg:hidden inline-block ml-2">Tweet</span>
+              <span class="lg:hidden inline-block ml-2">
+                X (f.k.a Twitter)
+              </span>
             </a>
           </li>
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#pablo"
+              :href="$config.public.socialLinks.youtube"
+            >
+              <Icon
+                class="lg:text-gray-300 text-gray-500"
+                name="mdi:youtube"
+                size="24"
+              />
+              <span class="lg:hidden inline-block ml-2">YouTube</span>
+            </a>
+          </li>
+          <li class="flex items-center">
+            <a
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              :href="$config.public.socialLinks.github"
             >
               <Icon
                 class="lg:text-gray-300 text-gray-500"

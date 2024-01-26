@@ -8,7 +8,7 @@
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
         <span
           id="blackOverlay"
-          class="w-full h-full absolute opacity-50 bg-black"
+          class="w-full h-full absolute opacity-30 bg-black"
         ></span>
       </div>
       <div data-aos="fade-down" class="container relative mx-auto">
@@ -23,27 +23,14 @@
           </div>
         </div>
       </div>
-      <div
-        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-        style="height: 70px"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-gray-300 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
     </div>
-    <section class="pb-20 bg-gray-300 -mt-24">
+    <section class="relative pb-20 -mt-24">
+      <div class="absolute mt-48 top-auto w-full h-full bg-center bg-cover">
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute bg-purple-700"
+        ></span>
+      </div>
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
@@ -105,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap items-center mt-32">
+        <div class="flex flex-wrap items-center mt-16 lg:mt-32">
           <div
             data-aos="zoom-out"
             class="w-full md:w-5/12 px-4 mr-auto ml-auto"
@@ -115,39 +102,40 @@
             >
               <Icon name="mdi:account-supervisor" size="32" />
             </div>
-            <h3 class="text-3xl mb-2 font-semibold leading-normal">
-              Working with us is a pleasure
+            <h3 class="text-white text-3xl mb-2 font-semibold leading-normal">
+              Code, Laugh, Launch!
             </h3>
             <p
-              class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+              class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-200"
             >
-              Don't let your uses guess by attaching tooltips and popoves to any
-              element. Just make sure you enable them first via JavaScript.
+              Elevate your app game with a sprinkle of our coding magic and a
+              whole lot of fun.
             </p>
             <p
-              class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+              class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-200"
             >
-              The kit comes with three pre-built pages to help you get started
-              faster. You can change the text and images and you're good to go.
-              Just make sure you enable them first via JavaScript.
+              Say goodbye to coding blues; with us, it's all smooth sailing (and
+              maybe some pizza)!
             </p>
             <a
               href="https://github.com/modbender"
-              class="font-bold text-gray-800 mt-8"
+              class="font-bold text-gray-300 mt-8"
               target="_blank"
             >
               Check my GitHub profile
             </a>
           </div>
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-10">
             <div
               data-aos="fade-left"
               class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
             >
-              <img
-                alt="..."
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80"
+              <NuxtImg
+                alt="Top Notch Services"
+                src="https://cdn.pixabay.com/photo/2023/02/09/18/42/podcast-7779510_1280.png"
                 class="w-full align-middle rounded-t-lg"
+                format="webp"
+                quality="80"
               />
               <div class="bg-pink-600 rounded-b-lg">
                 <blockquote class="relative p-8 mb-4">
@@ -167,9 +155,7 @@
                     Top Notch Services
                   </h4>
                   <p class="text-md font-light mt-2 text-white">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    Instant services that will make you want to come again!
                   </p>
                 </blockquote>
               </div>
@@ -182,7 +168,7 @@
       <section class="relative bg-white py-20">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px"
+          style="height: 81px"
         >
           <svg
             class="absolute bottom-0 overflow-hidden"
@@ -205,10 +191,12 @@
               data-aos="flip-right"
               class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-6"
             >
-              <img
-                alt="..."
+              <NuxtImg
+                alt="Skyrocketing Success"
                 class="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=634&amp;q=80"
+                src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
+                format="webp"
+                quality="80"
               />
             </div>
             <div
@@ -221,11 +209,11 @@
                 >
                   <Icon name="mdi:rocket" size="32" />
                 </div>
-                <h3 class="text-3xl font-semibold">A growing company</h3>
+                <h3 class="text-3xl font-semibold">Skyrocketing Success</h3>
                 <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  The extension comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go.
+                  Dive into our toolbox of innovation with pre-built pages that
+                  launch your project at warp speed. Customize a bit or a lot,
+                  and boom – you’re on the launchpad, ready for liftoff!
                 </p>
                 <ul class="list-none mt-6">
                   <li class="py-2">
@@ -234,12 +222,12 @@
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                         >
-                          <Icon name="mdi:fingerprint" size="24" />
+                          <Icon name="mdi:code-block-tags" size="24" />
                         </span>
                       </div>
                       <div>
                         <h4 class="text-gray-600">
-                          Carefully crafted components
+                          Pixel-Perfect Build Blocks
                         </h4>
                       </div>
                     </div>
@@ -250,11 +238,14 @@
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                         >
-                          <Icon name="mdi:language-html5" size="24" />
+                          <Icon
+                            name="mdi:selection-ellipse-arrow-inside"
+                            size="24"
+                          />
                         </span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Amazing page examples</h4>
+                        <h4 class="text-gray-600">Stellar Page Examples</h4>
                       </div>
                     </div>
                   </li>
@@ -264,11 +255,11 @@
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                         >
-                          <Icon name="mdi:airplane" size="24" />
+                          <Icon name="mdi:video-input-component" size="24" />
                         </span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Dynamic components</h4>
+                        <h4 class="text-gray-600">Adaptable Components</h4>
                       </div>
                     </div>
                   </li>
@@ -278,11 +269,11 @@
           </div>
         </div>
       </section>
-      <section class="relative pt-20 pb-48">
+      <section class="relative pt-20 pb-48 text-white">
         <div class="absolute top-0 w-full h-full bg-center bg-cover">
           <span
             id="blackOverlay"
-            class="w-full h-full absolute opacity-50 bg-white"
+            class="w-full h-full absolute opacity-50 bg-blue-700"
           ></span>
         </div>
         <div class="container mx-auto px-4">
@@ -293,11 +284,9 @@
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-extrabold">Here are our heroes</h2>
               <p
-                class="text-lg leading-relaxed font-semibold m-4 text-gray-900"
+                class="text-lg leading-relaxed font-semibold m-4 text-gray-300"
               >
-                According to the National Oceanic and Atmospheric
-                Administration, Ted, Scambos, NSIDClead scentist, puts the
-                potentially record maximum.
+                These heroes made this template possible
               </p>
             </div>
           </div>
@@ -307,15 +296,17 @@
               class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
             >
               <div class="px-6">
-                <img
-                  alt="..."
+                <NuxtImg
+                  alt="Me"
                   src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  format="webp"
+                  quality="80"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-900 uppercase font-semibold">
+                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                     Web Developer
                   </p>
                   <div class="mt-6">
@@ -346,15 +337,17 @@
               class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
             >
               <div class="px-6">
-                <img
-                  alt="..."
+                <NuxtImg
+                  alt="Me"
                   src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  format="webp"
+                  quality="80"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-900 uppercase font-semibold">
+                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                     Game Developer
                   </p>
                   <div class="mt-6">
@@ -379,15 +372,17 @@
               class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
             >
               <div class="px-6">
-                <img
-                  alt="..."
+                <NuxtImg
+                  alt="Me"
                   src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  format="webp"
+                  quality="80"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-900 uppercase font-semibold">
+                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                     UI/UX Designer
                   </p>
                   <div class="mt-6">
@@ -418,15 +413,17 @@
               class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
             >
               <div class="px-6">
-                <img
-                  alt="..."
+                <NuxtImg
+                  alt="Me"
                   src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px"
+                  format="webp"
+                  quality="80"
                 />
                 <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-900 uppercase font-semibold">
+                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                     Python Developer
                   </p>
                   <div class="mt-6">
@@ -481,14 +478,14 @@
             ></polygon>
           </svg>
         </div>
-        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+        <div class="container mx-auto px-4 pt-24 lg:pb-64">
           <div
             data-aos="fade-left"
             class="flex flex-wrap text-center justify-center"
           >
             <div class="w-full lg:w-6/12 px-4">
               <h2 class="text-4xl font-semibold text-white">Build something</h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
                 Put the potentially record low maximum sea ice extent tihs year
                 down to low ice. According to the National Oceanic and
                 Atmospheric Administration, Ted, Scambos.
@@ -508,7 +505,7 @@
               <h6 class="text-xl mt-5 font-semibold text-white">
                 Excelent Services
               </h6>
-              <p class="mt-2 mb-4 text-gray-500">
+              <p class="mt-2 mb-4 text-gray-400">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -525,7 +522,7 @@
               <h5 class="text-xl mt-5 font-semibold text-white">
                 Grow your market
               </h5>
-              <p class="mt-2 mb-4 text-gray-500">
+              <p class="mt-2 mb-4 text-gray-400">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -540,7 +537,7 @@
                 <Icon name="mdi:bulb" size="36" />
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
-              <p class="mt-2 mb-4 text-gray-500">
+              <p class="mt-2 mb-4 text-gray-400">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -551,10 +548,10 @@
       <section class="relative block py-24 lg:pt-0 bg-gray-900">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-            <div class="w-full lg:w-6/12 px-4">
+            <div class="w-full lg:w-6/12 lg:px-4">
               <div
                 data-aos="flip-down"
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                class="relative flex flex-col min-w-0 break-words w-full mt-6 mb-6 shadow-lg rounded-lg bg-gray-300"
               >
                 <div class="flex-auto p-5 lg:p-10">
                   <h4 class="text-2xl font-semibold">Want to work with us?</h4>
@@ -609,6 +606,7 @@
                       type="button"
                       style="transition: all 0.15s ease 0s"
                     >
+                      <Icon class="mb-1 mr-1" name="mdi:send" />
                       Send Message
                     </button>
                   </div>

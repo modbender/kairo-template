@@ -2,7 +2,7 @@
   <footer class="relative bg-gray-300 pt-8 pb-6">
     <div
       class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-      style="height: 80px"
+      style="height: 81px"
     >
       <svg
         class="absolute bottom-0 overflow-hidden"
@@ -27,30 +27,30 @@
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
           <div class="mt-6">
-            <button
-              class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
+            <a
+              class="no-anim text-blue-400 font-normal items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              :href="$config.public.socialLinks.x"
             >
-              <Icon name="mdi:twitter" size="24" />
-            </button>
-            <button
-              class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
+              <Icon name="mdi:twitter" size="36" />
+            </a>
+            <a
+              class="no-anim text-blue-600 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              :href="$config.public.socialLinks.facebook"
             >
-              <Icon name="mdi:facebook-box" size="24" />
-            </button>
-            <button
-              class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
+              <Icon name="mdi:facebook" size="36" />
+            </a>
+            <a
+              class="no-anim text-pink-400 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              :href="$config.public.socialLinks.dribbble"
             >
-              <Icon name="mdi:dribbble" size="24" />
-            </button>
-            <button
-              class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-              type="button"
+              <Icon name="mdi:dribbble" size="36" />
+            </a>
+            <a
+              class="no-anim text-gray-900 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              :href="$config.public.socialLinks.github"
             >
-              <Icon name="mdi:github" size="24" />
-            </button>
+              <Icon name="mdi:github" size="36" />
+            </a>
           </div>
         </div>
         <div class="w-full lg:w-6/12 px-4">
