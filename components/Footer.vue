@@ -68,7 +68,7 @@
               <ul class="list-unstyled">
                 <li>
                   <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/about"
                   >
                     About Us
@@ -76,27 +76,29 @@
                 </li>
                 <li>
                   <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/blog"
                   >
                     Blog
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  <a
+                    target="_blank"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     href="https://github.com/modbender"
                   >
                     Github
-                  </NuxtLink>
+                  </a>
                 </li>
                 <li>
-                  <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  <a
+                    target="_blank"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     href="https://github.com/modbender"
                   >
                     Donate
-                  </NuxtLink>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -109,24 +111,24 @@
               <ul class="list-unstyled">
                 <li>
                   <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="/terms"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
+                    to="/terms"
                   >
                     Terms &amp; Conditions
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="/privacy"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
+                    to="/privacy"
                   >
                     Privacy Policy
                   </NuxtLink>
                 </li>
                 <li>
                   <NuxtLink
-                    class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="/contact"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
+                    to="/contact"
                   >
                     Contact Us
                   </NuxtLink>

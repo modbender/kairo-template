@@ -5,55 +5,102 @@
       class="bg-white/90 container mx-auto p-16 w-full min-h-screen rounded-2xl"
     >
       <div class="prose max-w-none text-black">
-        <div class="text-center text-5xl font-extrabold">ABOUT US</div>
+        <div class="text-center text-5xl font-extrabold">
+          TERMS & CONDITIONS
+        </div>
         <div class="mt-8">
-          <h3 class="font-extrabold">Our Journey</h3>
+          <h3 class="font-extrabold">Welcome to [Your Company Name]</h3>
           <p>
-            Welcome to [Your Company Name], where our passion for innovation
-            meets the world of app development. Founded in [Year], our mission
-            has been to create impactful Android apps that enrich lives and
-            empower businesses. With a team that combines seasoned expertise and
-            fresh talent, we've carved out a niche for ourselves in the bustling
-            digital landscape.
+            These terms and conditions outline the rules and regulations for the
+            use of [Your Company Name]'s Website, located at [Your Website URL].
           </p>
-          <h3 class="font-extrabold">Our Philosophy</h3>
           <p>
-            We believe in more than just developing apps. We believe in creating
-            experiences that resonate. Our philosophy is simple: understand the
-            client, understand the user. It's this empathetic approach that
-            allows us to design apps that not only meet needs but also delight
-            users.
+            By accessing this website, we assume you accept these terms and
+            conditions. Do not continue to use [Your Website URL] if you do not
+            agree to take all of the terms and conditions stated on this page.
           </p>
-          <h3 class="font-extrabold">Our Team</h3>
+          <h3 class="font-extrabold">Cookies</h3>
           <p>
-            At the heart of [Your Company Name] is a diverse team of dreamers
-            and doers. Designers, developers, and strategists, united by a
-            shared love for code and design. We're a tight-knit group that
-            functions like a well-oiled machine, with each of us bringing our
-            unique skills and personalities to the table.
+            The website uses cookies to help personalize your online experience.
+            By accessing [Your Company Name], you agreed to use the required
+            cookies.
           </p>
-          <h3 class="font-extrabold">Our Approach</h3>
+          <h3 class="font-extrabold">License</h3>
           <p>
-            Our approach is collaborative, transparent, and agile. We integrate
-            our clients into every step of the development process, ensuring
-            that each app is a true reflection of their vision. We pride
-            ourselves on our ability to adapt, learn, and stay ahead of the
-            curve in a constantly evolving tech world.
+            Unless otherwise stated, [Your Company Name] and/or its licensors
+            own the intellectual property rights for all material on [Your
+            Company Name]. All intellectual property rights are reserved. You
+            may access this from [Your Company Name] for your own personal use,
+            subject to restrictions set in these terms and conditions.
           </p>
-          <h3 class="font-extrabold">Our Commitment</h3>
           <p>
-            To our clients, we promise unwavering commitment to quality and
-            innovation. To our users, we promise engaging apps that make life a
-            little easier, and a lot more exciting. And to ourselves, we promise
-            to never stop learning, exploring, and pushing the boundaries of
-            what's possible.
+            Parts of this website offer an opportunity for users to post and
+            exchange opinions and information. [Your Company Name] does not
+            filter, edit, publish, or review Comments prior to their presence on
+            the website. Comments do not reflect the views and opinions of [Your
+            Company Name], its agents, and/or affiliates. Comments reflect the
+            views and opinions of the person who posts their views and opinions.
           </p>
-          <h3 class="font-extrabold">Join Us</h3>
+          <h3 class="font-extrabold">Hyperlinking to our Content</h3>
           <p>
-            Whether you're looking to develop an app, join our team, or simply
-            learn more about what we do, we're always here to chat. Connect with
-            us, and let's make something amazing together.
+            The following organizations may link to our Website without prior
+            written approval:
           </p>
+          <ul>
+            <li>Government agencies;</li>
+            <li>Search engines;</li>
+            <li>News organizations;</li>
+            <li>
+              Online directory distributors may link to our Website in the same
+              manner as they hyperlink to the Websites of other listed
+              businesses.
+            </li>
+          </ul>
+          <p>
+            These organizations may link to our home page, to publications, or
+            to other Website information so long as the link: (a) is not in any
+            way deceptive; (b) does not falsely imply sponsorship, endorsement,
+            or approval of the linking party and its products and/or services;
+            and (c) fits within the context of the linking party's site.
+          </p>
+          <h3 class="font-extrabold">iFrames</h3>
+          <p>
+            Without prior approval and written permission, you may not create
+            frames around our Webpages that alter in any way the visual
+            presentation or appearance of our Website.
+          </p>
+          <h3 class="font-extrabold">Content Liability</h3>
+          <p>
+            We shall not be held responsible for any content that appears on
+            your Website. You agree to protect and defend us against all claims
+            that are rising on your Website.
+          </p>
+          <h2 class="font-extrabold">Your Privacy</h2>
+          <p>
+            Please read our <NuxtLink to="/privacy">Privacy Policy</NuxtLink>.
+          </p>
+          <h3 class="font-extrabold">Reservation of Rights</h3>
+          <p>
+            We reserve the right to request that you remove all links or any
+            particular link to our Website. You approve to immediately remove
+            all links to our Website upon request.
+          </p>
+          <h3 class="font-extrabold">Removal of links from our website</h3>
+          <p>
+            If you find any link on our Website that is offensive for any
+            reason, you are free to contact and inform us at any moment. We will
+            consider requests to remove links but we are not obligated to or so
+            or to respond to you directly.
+          </p>
+          <h3 class="font-extrabold">Disclaimer</h3>
+          <p>
+            The limitations and prohibitions of liability set in this Section
+            and elsewhere in this disclaimer: (a) are subject to the preceding
+            paragraph; and (b) govern all liabilities arising under the
+            disclaimer, including liabilities arising in contract, in tort, and
+            for breach of statutory duty.
+          </p>
+          <p>We will not be liable for any loss or damage of any nature.</p>
           <hr class="border-[1px] border-top border-black mx-16" />
           <p class="text-center italic font-bold">
             ** The above text is simply a placeholder text generated by our

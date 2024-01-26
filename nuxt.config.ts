@@ -125,7 +125,8 @@ export default defineNuxtConfig({
   },
 
   googleFonts: {
-    display: "optional",
+    // If you face issues with font loading speed or CLS uncomment display option
+    // display: "optional",
     families: {
       Roboto: [100, 300, 400, 500, 600, 700, 900],
     },
