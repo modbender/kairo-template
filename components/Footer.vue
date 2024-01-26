@@ -22,30 +22,34 @@
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+          <h4 class="text-3xl font-bold">Let's keep in touch!</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
           <div class="mt-6">
             <a
+              target="_blank"
               class="no-anim text-blue-400 font-normal items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.x"
             >
               <Icon name="mdi:twitter" size="36" />
             </a>
             <a
+              target="_blank"
               class="no-anim text-blue-600 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.facebook"
             >
               <Icon name="mdi:facebook" size="36" />
             </a>
             <a
+              target="_blank"
               class="no-anim text-pink-400 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.dribbble"
             >
               <Icon name="mdi:dribbble" size="36" />
             </a>
             <a
+              target="_blank"
               class="no-anim text-gray-900 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.github"
             >
@@ -57,7 +61,7 @@
           <div class="flex flex-wrap items-top mb-6">
             <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                class="block uppercase text-gray-600 text-sm font-bold mb-2"
               >
                 Useful Links
               </span>
@@ -98,7 +102,7 @@
             </div>
             <div class="w-full lg:w-4/12 px-4">
               <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                class="block uppercase text-gray-600 text-sm font-bold mb-2"
               >
                 Other Resources
               </span>
@@ -138,7 +142,7 @@
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
           <div class="text-sm text-gray-600 font-semibold py-1">
-            Copyright © {{ date }} Tailwind - Kairo Template
+            Copyright © {{ date }} Tailwind - Kairi Template by
             <a
               href="https://github.com/modbender"
               class="text-gray-600 hover:text-gray-900"
@@ -155,4 +159,6 @@
 
 <script setup>
 const date = ref(new Date().getFullYear());
+
+const siteConfig = useSiteConfig();
 </script>

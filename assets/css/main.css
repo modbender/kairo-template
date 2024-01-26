@@ -17,10 +17,6 @@ a:not(.no-anim) {
   padding-bottom: 10px;
 }
 
-a:not(.no-anim):hover {
-  @apply text-gray-200 !important;
-}
-
 /* Animate the line from the left */
 a:not(.no-anim)::before {
   @apply bg-orange-600;
@@ -39,6 +35,10 @@ a:not(.no-anim)::before {
 
 a:not(.no-anim):hover::before {
   transform: scaleX(1);
+}
+
+main {
+  min-height: 100vh;
 }
 
 .bg-particles {

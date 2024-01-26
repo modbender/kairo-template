@@ -14,7 +14,7 @@
       <div data-aos="fade-down" class="container relative mx-auto">
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <h1 class="text-white font-semibold text-5xl">
+            <h1 class="text-white font-bold text-5xl">
               Crafting Your Imagination into Reality.
             </h1>
             <p class="mt-4 text-lg text-gray-300">
@@ -36,12 +36,12 @@
           <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <div
               data-aos="fade-right"
-              data-aos-duration="2000"
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos-duration="1500"
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-xl shadow-green-400 rounded-lg"
             >
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-green-400"
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 rounded-full bg-green-400"
                 >
                   <Icon name="mdi:android" size="64" />
                 </div>
@@ -55,12 +55,12 @@
           <div class="w-full md:w-4/12 px-4 text-center">
             <div
               data-aos="fade-up"
-              data-aos-duration="2000"
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos-duration="1500"
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-xl shadow-red-400 rounded-lg"
             >
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-red-400"
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 rounded-full bg-red-400"
                 >
                   <Icon name="mdi:language-html5" size="64" />
                 </div>
@@ -75,12 +75,12 @@
           <div class="pt-6 w-full md:w-4/12 px-4 text-center">
             <div
               data-aos="fade-left"
-              data-aos-duration="2000"
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              data-aos-duration="1500"
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-xl shadow-yellow-400 rounded-lg"
             >
               <div class="px-4 py-5 flex-auto">
                 <div
-                  class="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 shadow-lg rounded-full bg-yellow-400"
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-24 h-24 mb-5 rounded-full bg-yellow-400"
                 >
                   <Icon name="mdi:code" size="64" />
                 </div>
@@ -92,7 +92,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap items-center mt-16 lg:mt-32">
+        <div class="flex flex-wrap items-center mt-16">
           <div
             data-aos="zoom-out"
             class="w-full md:w-5/12 px-4 mr-auto ml-auto"
@@ -128,7 +128,7 @@
           <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-10">
             <div
               data-aos="fade-left"
-              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
+              class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg shadow-blue-400 rounded-lg"
             >
               <NuxtImg
                 alt="Top Notch Services"
@@ -193,7 +193,7 @@
             >
               <NuxtImg
                 alt="Skyrocketing Success"
-                class="max-w-full rounded-lg shadow-lg"
+                class="max-w-full rounded-lg shadow-lg shadow-black"
                 src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
                 format="webp"
                 quality="80"
@@ -551,7 +551,7 @@
             <div class="w-full lg:w-6/12 lg:px-4">
               <div
                 data-aos="flip-down"
-                class="relative flex flex-col min-w-0 break-words w-full mt-6 mb-6 shadow-lg rounded-lg bg-gray-300"
+                class="relative flex flex-col min-w-0 break-words w-full mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
               >
                 <div class="flex-auto p-5 lg:p-10">
                   <h4 class="text-2xl font-semibold">Want to work with us?</h4>
@@ -623,6 +623,8 @@
 <script setup>
 const { $AOS } = useNuxtApp();
 
+const defaultOgImage = useDefaultOgImage();
+
 onMounted(() => {
   $AOS.init({
     offset: 160,
@@ -641,5 +643,6 @@ useSchemaOrg([
 useSeoMeta({
   title: "Home",
   twitterCard: "summary_large_image",
+  ogImage: [...defaultOgImage],
 });
 </script>
