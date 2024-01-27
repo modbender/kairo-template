@@ -1,5 +1,7 @@
 @import "~/node_modules/aos/dist/aos.css";
 
+@import "_preloader.css";
+
 html,
 body {
   max-width: 100%;

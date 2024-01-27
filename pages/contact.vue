@@ -5,54 +5,45 @@
       class="bg-white/90 container mx-auto p-16 w-full min-h-screen rounded-2xl"
     >
       <div class="prose max-w-none text-black">
-        <div class="text-center text-5xl font-extrabold">ABOUT US</div>
+        <div class="text-center text-5xl font-extrabold">CONTACT US</div>
         <div class="mt-8">
-          <h3 class="font-extrabold">Our Journey</h3>
+          <h3 class="font-extrabold">Get in Touch with [Your Company Name]</h3>
           <p>
-            Welcome to [Your Company Name], where our passion for innovation
-            meets the world of app development. Founded in [Year], our mission
-            has been to create impactful Android apps that enrich lives and
-            empower businesses. With a team that combines seasoned expertise and
-            fresh talent, we've carved out a niche for ourselves in the bustling
-            digital landscape.
+            We're here to help and answer any question you might have. We look
+            forward to hearing from you!
           </p>
-          <h3 class="font-extrabold">Our Philosophy</h3>
+          <h3 class="font-extrabold">Email Us:</h3>
           <p>
-            We believe in more than just developing apps. We believe in creating
-            experiences that resonate. Our philosophy is simple: understand the
-            client, understand the user. It's this empathetic approach that
-            allows us to design apps that not only meet needs but also delight
-            users.
+            For general inquiries, reach out to us at [email@example.com]. For
+            support, please email [support@example.com].
           </p>
-          <h3 class="font-extrabold">Our Team</h3>
+          <h3 class="font-extrabold">Call Us:</h3>
+          <p>Speak directly with our team at [Phone Number].</p>
+          <h3 class="font-extrabold">Visit Us:</h3>
+          <p>[Your Company Address]</p>
+          <div>
+            <iframe
+              class="w-full"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d381.2755515702916!2d-102.88425447510082!3d30.893970832216954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1706344169721!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <h3 class="font-extrabold">Business Hours:</h3>
+          <ul>
+            <li>Monday to Friday - 9:00 AM to 5:00 PM</li>
+            <li>Saturday - 10:00 AM to 3:00 PM</li>
+            <li>Sunday - Closed</li>
+          </ul>
+          <h3 class="font-extrabold">Send Us a Message:</h3>
           <p>
-            At the heart of [Your Company Name] is a diverse team of dreamers
-            and doers. Designers, developers, and strategists, united by a
-            shared love for code and design. We're a tight-knit group that
-            functions like a well-oiled machine, with each of us bringing our
-            unique skills and personalities to the table.
-          </p>
-          <h3 class="font-extrabold">Our Approach</h3>
-          <p>
-            Our approach is collaborative, transparent, and agile. We integrate
-            our clients into every step of the development process, ensuring
-            that each app is a true reflection of their vision. We pride
-            ourselves on our ability to adapt, learn, and stay ahead of the
-            curve in a constantly evolving tech world.
-          </p>
-          <h3 class="font-extrabold">Our Commitment</h3>
-          <p>
-            To our clients, we promise unwavering commitment to quality and
-            innovation. To our users, we promise engaging apps that make life a
-            little easier, and a lot more exciting. And to ourselves, we promise
-            to never stop learning, exploring, and pushing the boundaries of
-            what's possible.
-          </p>
-          <h3 class="font-extrabold">Join Us</h3>
-          <p>
-            Whether you're looking to develop an app, join our team, or simply
-            learn more about what we do, we're always here to chat. Connect with
-            us, and let's make something amazing together.
+            Send a message to us by filling out the
+            <NuxtLink to="/#contact">form at home page</NuxtLink>, and we'll get
+            back to you as soon as possible.
           </p>
           <hr class="border-[1px] border-top border-black mx-16" />
           <p class="text-center italic font-bold">

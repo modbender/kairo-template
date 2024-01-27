@@ -29,6 +29,7 @@
           <div class="mt-6">
             <a
               target="_blank"
+              aria-label="Check Twitter profile"
               class="no-anim text-blue-400 font-normal items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.x"
             >
@@ -36,6 +37,7 @@
             </a>
             <a
               target="_blank"
+              aria-label="Check Facebook profile"
               class="no-anim text-blue-600 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.facebook"
             >
@@ -43,6 +45,7 @@
             </a>
             <a
               target="_blank"
+              aria-label="Check Dribbble profile"
               class="no-anim text-pink-400 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.dribbble"
             >
@@ -50,6 +53,7 @@
             </a>
             <a
               target="_blank"
+              aria-label="Check GitHub profile"
               class="no-anim text-gray-900 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.github"
             >
@@ -68,6 +72,7 @@
               <ul class="list-unstyled">
                 <li>
                   <NuxtLink
+                    aria-label="About Us Page"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/about"
                   >
@@ -76,6 +81,7 @@
                 </li>
                 <li>
                   <NuxtLink
+                    aria-label="Blog Page"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/blog"
                   >
@@ -85,6 +91,7 @@
                 <li>
                   <a
                     target="_blank"
+                    aria-label="Github Profile"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     href="https://github.com/modbender"
                   >
@@ -94,6 +101,7 @@
                 <li>
                   <a
                     target="_blank"
+                    aria-label="Donate to Author!"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     href="https://github.com/modbender"
                   >
@@ -111,6 +119,7 @@
               <ul class="list-unstyled">
                 <li>
                   <NuxtLink
+                    aria-label="Terms & Conditions Page"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/terms"
                   >
@@ -119,6 +128,7 @@
                 </li>
                 <li>
                   <NuxtLink
+                    aria-label="Privacy Policy Page"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/privacy"
                   >
@@ -127,6 +137,7 @@
                 </li>
                 <li>
                   <NuxtLink
+                    aria-label="Contact Us Page"
                     class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
                     to="/contact"
                   >
@@ -146,6 +157,7 @@
           <div class="text-sm text-gray-600 font-semibold py-1">
             Copyright © {{ date }} Tailwind - Kairi Template by
             <a
+              aria-label="Author GitHub Page"
               href="https://github.com/modbender"
               class="text-gray-600 hover:text-gray-900"
               target="_blank"

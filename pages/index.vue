@@ -45,7 +45,7 @@
                 >
                   <Icon name="mdi:android" size="64" />
                 </div>
-                <h6 class="text-xl font-semibold">Android Apps</h6>
+                <h4 class="text-xl font-semibold">Android Apps</h4>
                 <p class="mt-2 mb-4 text-gray-600">
                   Building seamless Android apps and games.
                 </p>
@@ -64,7 +64,7 @@
                 >
                   <Icon name="mdi:language-html5" size="64" />
                 </div>
-                <h6 class="text-xl font-semibold">Websites</h6>
+                <h4 class="text-xl font-semibold">Websites</h4>
                 <p class="mt-2 mb-4 text-gray-600">
                   Designing engaging websites that achieve perfect 100 PageSpeed
                   scores.
@@ -84,7 +84,7 @@
                 >
                   <Icon name="mdi:code" size="64" />
                 </div>
-                <h6 class="text-xl font-semibold">Efficient Code</h6>
+                <h4 class="text-xl font-semibold">Efficient Code</h4>
                 <p class="mt-2 mb-4 text-gray-600">
                   Always aiming for maximum efficiency in programming.
                 </p>
@@ -118,10 +118,12 @@
               maybe some pizza)!
             </p>
             <a
+              aria-label="Check GitHub profile"
               href="https://github.com/modbender"
               class="font-bold text-gray-300 mt-8"
               target="_blank"
             >
+              <Icon class="mb-1" name="mdi:external-link" size="16" />
               Check my GitHub profile
             </a>
           </div>
@@ -213,14 +215,14 @@
                 <p class="mt-4 text-lg leading-relaxed text-gray-600">
                   Dive into our toolbox of innovation with pre-built pages that
                   launch your project at warp speed. Customize a bit or a lot,
-                  and boom – you’re on the launchpad, ready for liftoff!
+                  and boom - you're on the launchpad, ready for liftoff!
                 </p>
                 <ul class="list-none mt-6">
                   <li class="py-2">
                     <div class="flex items-center">
                       <div>
                         <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                         >
                           <Icon name="mdi:code-block-tags" size="24" />
                         </span>
@@ -236,7 +238,7 @@
                     <div class="flex items-center">
                       <div>
                         <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                         >
                           <Icon
                             name="mdi:selection-ellipse-arrow-inside"
@@ -253,7 +255,7 @@
                     <div class="flex items-center">
                       <div>
                         <span
-                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
                         >
                           <Icon name="mdi:video-input-component" size="24" />
                         </span>
@@ -264,6 +266,17 @@
                     </div>
                   </li>
                 </ul>
+                <div class="my-10">
+                  <a
+                    class="no-anim text-white bg-blue-700 hover:bg-blue-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                    aria-level="Check our apps on Google Play"
+                    href="https://play.google.com/"
+                    target="_blank"
+                  >
+                    <Icon class="mb-1" name="mdi:external-link" size="26" />
+                    Google Play
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -311,18 +324,21 @@
                   </p>
                   <div class="mt-6">
                     <button
+                      aria-label="Go to Twitter Page"
                       class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:twitter" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Facebook Page"
                       class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:facebook" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Dribbble Page"
                       class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
@@ -352,12 +368,14 @@
                   </p>
                   <div class="mt-6">
                     <button
+                      aria-label="Go to Google Page"
                       class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:google" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Facebook Page"
                       class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
@@ -387,18 +405,21 @@
                   </p>
                   <div class="mt-6">
                     <button
+                      aria-label="Go to Google Page"
                       class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:google" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Twitter Page"
                       class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:twitter" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Instagram Page"
                       class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
@@ -428,24 +449,28 @@
                   </p>
                   <div class="mt-6">
                     <button
+                      aria-label="Go to Dribbble Page"
                       class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:dribbble" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Google Page"
                       class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:google" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Twitter Page"
                       class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
                       <Icon name="mdi:twitter" size="24" />
                     </button>
                     <button
+                      aria-label="Go to Instagram Page"
                       class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
                       type="button"
                     >
@@ -545,7 +570,7 @@
           </div>
         </div>
       </section>
-      <section class="relative block py-24 lg:pt-0 bg-gray-900">
+      <section id="contact" class="relative block py-24 lg:pt-0 bg-gray-900">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
             <div class="w-full lg:w-6/12 lg:px-4">
@@ -602,9 +627,10 @@
                   </div>
                   <div class="text-center mt-6">
                     <button
+                      aria-label="Send Message"
+                      style="transition: all 0.15s ease 0s"
                       class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
                       type="button"
-                      style="transition: all 0.15s ease 0s"
                     >
                       <Icon class="mb-1 mr-1" name="mdi:send" />
                       Send Message
