@@ -509,11 +509,12 @@
             class="flex flex-wrap text-center justify-center"
           >
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">Build something</h2>
+              <h2 class="text-4xl font-semibold text-white">
+                Build Something Great
+              </h2>
               <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
-                Put the potentially record low maximum sea ice extent tihs year
-                down to low ice. According to the National Oceanic and
-                Atmospheric Administration, Ted, Scambos.
+                Elevate your digital presence with our cutting-edge solutions
+                tailored just for you. Let's innovate together.
               </p>
             </div>
           </div>
@@ -528,11 +529,11 @@
                 <Icon name="mdi:medal" size="36" />
               </div>
               <h6 class="text-xl mt-5 font-semibold text-white">
-                Excelent Services
+                Excellent Services
               </h6>
               <p class="mt-2 mb-4 text-gray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Delivering top-notch quality and unparalleled expertise to turn
+                your vision into a digital reality.
               </p>
             </div>
             <div
@@ -545,11 +546,11 @@
                 <Icon name="mdi:poll" size="36" />
               </div>
               <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow your market
+                Grow Your Market
               </h5>
               <p class="mt-2 mb-4 text-gray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Expand your reach and capture new audiences with strategic
+                marketing and robust digital tools.
               </p>
             </div>
             <div
@@ -561,10 +562,10 @@
               >
                 <Icon name="mdi:bulb" size="36" />
               </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch time</h5>
+              <h5 class="text-xl mt-5 font-semibold text-white">Launch Time</h5>
               <p class="mt-2 mb-4 text-gray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Embark on a journey to market dominance with products launched
+                to perfection and beyond.
               </p>
             </div>
           </div>
