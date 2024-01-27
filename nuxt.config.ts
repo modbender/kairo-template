@@ -75,10 +75,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    // prerender: {
-    //   crawlLinks: true,
-    //   routes: ["/"],
-    // },
+    prerender: {
+      crawlLinks: true,
+      // routes: ["/"],
+    },
     publicAssets: [
       {
         baseURL: "images",
@@ -89,9 +89,9 @@ export default defineNuxtConfig({
   },
 
   // Required for Netlify deployment
-  // routeRules: {
-  //   "/**": { prerender: true },
-  // },
+  routeRules: {
+    "/**": { prerender: true },
+  },
 
   devtools: { enabled: true }, // Enabled only for dev automatically
 
