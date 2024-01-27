@@ -1,6 +1,7 @@
-@import "~/node_modules/aos/dist/aos";
-
 @import "preloader";
+@import "error";
+
+@import "~/node_modules/aos/dist/aos";
 
 html,
 body {
