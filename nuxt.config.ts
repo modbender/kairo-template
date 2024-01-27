@@ -76,8 +76,6 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      concurrency: 6,
-      interval: 2 * 1000, // uses setTimeout, 1000 milliseconds = 1 second
       crawlLinks: true,
     },
     publicAssets: [
@@ -130,5 +128,9 @@ export default defineNuxtConfig({
     families: {
       Roboto: [100, 300, 400, 500, 600, 700, 900],
     },
+  },
+
+  linkChecker: {
+    skipInspections: ["missing-hash"],
   },
 });
