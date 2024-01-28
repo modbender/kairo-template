@@ -166,484 +166,472 @@
         </div>
       </div>
     </section>
-    <ClientOnly>
-      <section class="relative bg-white py-20">
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 81px"
+    <section class="relative bg-white py-20">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 81px"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
         >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
+          <polygon
+            class="text-white fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="items-center flex flex-wrap">
+          <div
+            data-aos="flip-right"
+            class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-6"
           >
-            <polygon
-              class="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
+            <NuxtImg
+              alt="Skyrocketing Success"
+              class="max-w-full rounded-lg shadow-lg shadow-black"
+              src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
+              format="webp"
+              quality="80"
+            />
+          </div>
+          <div data-aos="zoom-in" class="w-full md:w-5/12 ml-auto mr-auto px-4">
+            <div class="md:pr-12">
+              <div
+                class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
+              >
+                <Icon name="mdi:rocket" size="32" />
+              </div>
+              <h3 class="text-3xl font-semibold">Skyrocketing Success</h3>
+              <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                Dive into our toolbox of innovation with pre-built pages that
+                launch your project at warp speed. Customize a bit or a lot, and
+                boom - you're on the launchpad, ready for liftoff!
+              </p>
+              <ul class="list-none mt-6">
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                      >
+                        <Icon name="mdi:code-block-tags" size="24" />
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Pixel-Perfect Build Blocks</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                      >
+                        <Icon
+                          name="mdi:selection-ellipse-arrow-inside"
+                          size="24"
+                        />
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Stellar Page Examples</h4>
+                    </div>
+                  </div>
+                </li>
+                <li class="py-2">
+                  <div class="flex items-center">
+                    <div>
+                      <span
+                        class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                      >
+                        <Icon name="mdi:video-input-component" size="24" />
+                      </span>
+                    </div>
+                    <div>
+                      <h4 class="text-gray-600">Adaptable Components</h4>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="my-10">
+                <a
+                  class="no-anim text-white bg-blue-700 hover:bg-blue-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  aria-level="Check our apps on Google Play"
+                  href="https://play.google.com/"
+                  target="_blank"
+                >
+                  <Icon class="mb-1" name="mdi:external-link" size="26" />
+                  Google Play
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
-            <div
-              data-aos="flip-right"
-              class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-6"
-            >
+      </div>
+    </section>
+    <section class="relative pt-20 pb-48 text-white">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover">
+        <span
+          id="blackOverlay"
+          class="w-full h-full absolute opacity-50 bg-blue-700"
+        ></span>
+      </div>
+      <div class="container mx-auto px-4">
+        <div
+          data-aos="fade-down"
+          class="flex flex-wrap justify-center text-center mb-24"
+        >
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-extrabold">Here are our heroes</h2>
+            <p class="text-lg leading-relaxed font-semibold m-4 text-gray-300">
+              These heroes made this template possible
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div
+            data-aos="fade-left"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+          >
+            <div class="px-6">
               <NuxtImg
-                alt="Skyrocketing Success"
-                class="max-w-full rounded-lg shadow-lg shadow-black"
-                src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
                 format="webp"
                 quality="80"
               />
-            </div>
-            <div
-              data-aos="zoom-in"
-              class="w-full md:w-5/12 ml-auto mr-auto px-4"
-            >
-              <div class="md:pr-12">
-                <div
-                  class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
-                >
-                  <Icon name="mdi:rocket" size="32" />
-                </div>
-                <h3 class="text-3xl font-semibold">Skyrocketing Success</h3>
-                <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  Dive into our toolbox of innovation with pre-built pages that
-                  launch your project at warp speed. Customize a bit or a lot,
-                  and boom - you're on the launchpad, ready for liftoff!
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Me</h5>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  Web Developer
                 </p>
-                <ul class="list-none mt-6">
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                        >
-                          <Icon name="mdi:code-block-tags" size="24" />
-                        </span>
-                      </div>
-                      <div>
-                        <h4 class="text-gray-600">
-                          Pixel-Perfect Build Blocks
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                        >
-                          <Icon
-                            name="mdi:selection-ellipse-arrow-inside"
-                            size="24"
-                          />
-                        </span>
-                      </div>
-                      <div>
-                        <h4 class="text-gray-600">Stellar Page Examples</h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="py-2">
-                    <div class="flex items-center">
-                      <div>
-                        <span
-                          class="text-xs font-semibold inline-block p-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                        >
-                          <Icon name="mdi:video-input-component" size="24" />
-                        </span>
-                      </div>
-                      <div>
-                        <h4 class="text-gray-600">Adaptable Components</h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-                <div class="my-10">
-                  <a
-                    class="no-anim text-white bg-blue-700 hover:bg-blue-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
-                    aria-level="Check our apps on Google Play"
-                    href="https://play.google.com/"
-                    target="_blank"
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Twitter Page"
+                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
                   >
-                    <Icon class="mb-1" name="mdi:external-link" size="26" />
-                    Google Play
-                  </a>
+                    <Icon name="mdi:twitter" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Facebook Page"
+                    class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:facebook" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Dribbble Page"
+                    class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:dribbble" size="24" />
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="relative pt-20 pb-48 text-white">
-        <div class="absolute top-0 w-full h-full bg-center bg-cover">
-          <span
-            id="blackOverlay"
-            class="w-full h-full absolute opacity-50 bg-blue-700"
-          ></span>
-        </div>
-        <div class="container mx-auto px-4">
           <div
             data-aos="fade-down"
-            class="flex flex-wrap justify-center text-center mb-24"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
           >
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-extrabold">Here are our heroes</h2>
-              <p
-                class="text-lg leading-relaxed font-semibold m-4 text-gray-300"
-              >
-                These heroes made this template possible
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-wrap">
-            <div
-              data-aos="fade-left"
-              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
-            >
-              <div class="px-6">
-                <NuxtImg
-                  alt="Me"
-                  src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
-                  format="webp"
-                  quality="80"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
-                    Web Developer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      aria-label="Go to Twitter Page"
-                      class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:twitter" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Facebook Page"
-                      class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:facebook" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Dribbble Page"
-                      class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:dribbble" size="24" />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="fade-down"
-              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
-            >
-              <div class="px-6">
-                <NuxtImg
-                  alt="Me"
-                  src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
-                  format="webp"
-                  quality="80"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
-                    Game Developer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      aria-label="Go to Google Page"
-                      class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:google" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Facebook Page"
-                      class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:facebook" size="24" />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="fade-down"
-              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
-            >
-              <div class="px-6">
-                <NuxtImg
-                  alt="Me"
-                  src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
-                  format="webp"
-                  quality="80"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
-                    UI/UX Designer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      aria-label="Go to Google Page"
-                      class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:google" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Twitter Page"
-                      class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:twitter" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Instagram Page"
-                      class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:instagram" size="24" />
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              data-aos="fade-left"
-              class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
-            >
-              <div class="px-6">
-                <NuxtImg
-                  alt="Me"
-                  src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
-                  class="shadow-lg rounded-full max-w-full mx-auto"
-                  style="max-width: 120px"
-                  format="webp"
-                  quality="80"
-                />
-                <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Me</h5>
-                  <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
-                    Python Developer
-                  </p>
-                  <div class="mt-6">
-                    <button
-                      aria-label="Go to Dribbble Page"
-                      class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:dribbble" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Google Page"
-                      class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:google" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Twitter Page"
-                      class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:twitter" size="24" />
-                    </button>
-                    <button
-                      aria-label="Go to Instagram Page"
-                      class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon name="mdi:instagram" size="24" />
-                    </button>
-                  </div>
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Me</h5>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  Game Developer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Google Page"
+                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:google" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Facebook Page"
+                    class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:facebook" size="24" />
+                  </button>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="pb-20 relative block bg-gray-900">
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-[79px]"
-          style="height: 80px"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
+          <div
+            data-aos="fade-down"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
           >
-            <polygon
-              class="text-gray-900 fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-        <div class="container mx-auto px-4 pt-24 lg:pb-64">
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Me</h5>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  UI/UX Designer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Google Page"
+                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:google" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Twitter Page"
+                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:twitter" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Instagram Page"
+                    class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:instagram" size="24" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
           <div
             data-aos="fade-left"
-            class="flex flex-wrap text-center justify-center"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
           >
-            <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold text-white">
-                Build Something Great
-              </h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
-                Elevate your digital presence with our cutting-edge solutions
-                tailored just for you. Let's innovate together.
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-wrap mt-12 justify-center">
-            <div
-              data-aos="fade-down-left"
-              class="w-full lg:w-3/12 px-4 text-center"
-            >
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <Icon name="mdi:medal" size="36" />
-              </div>
-              <h6 class="text-xl mt-5 font-semibold text-white">
-                Excellent Services
-              </h6>
-              <p class="mt-2 mb-4 text-gray-400">
-                Delivering top-notch quality and unparalleled expertise to turn
-                your vision into a digital reality.
-              </p>
-            </div>
-            <div
-              data-aos="fade-down-right"
-              class="w-full lg:w-3/12 px-4 text-center"
-            >
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <Icon name="mdi:poll" size="36" />
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">
-                Grow Your Market
-              </h5>
-              <p class="mt-2 mb-4 text-gray-400">
-                Expand your reach and capture new audiences with strategic
-                marketing and robust digital tools.
-              </p>
-            </div>
-            <div
-              data-aos="fade-right"
-              class="w-full lg:w-3/12 px-4 text-center"
-            >
-              <div
-                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
-              >
-                <Icon name="mdi:bulb" size="36" />
-              </div>
-              <h5 class="text-xl mt-5 font-semibold text-white">Launch Time</h5>
-              <p class="mt-2 mb-4 text-gray-400">
-                Embark on a journey to market dominance with products launched
-                to perfection and beyond.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="relative block py-24 lg:pt-0 bg-gray-900">
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-            <div class="w-full lg:w-6/12 lg:px-4">
-              <div
-                data-aos="flip-down"
-                class="relative flex flex-col min-w-0 break-words w-full mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
-              >
-                <div class="flex-auto p-5 lg:p-10">
-                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
-                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                    Complete this form and we will get back to you in 24 hours.
-                  </p>
-                  <div class="relative w-full mb-3 mt-8">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="full-name"
-                    >
-                      Full Name
-                    </label>
-                    <input
-                      type="text"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="email"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Email"
-                      style="transition: all 0.15s ease 0s"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="message"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      rows="4"
-                      cols="80"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
-                    ></textarea>
-                  </div>
-                  <div class="text-center mt-6">
-                    <button
-                      aria-label="Send Message"
-                      style="transition: all 0.15s ease 0s"
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                    >
-                      <Icon class="mb-1 mr-1" name="mdi:send" />
-                      Send Message
-                    </button>
-                  </div>
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full max-w-full mx-auto"
+                style="max-width: 120px"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold">Me</h5>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  Python Developer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Dribbble Page"
+                    class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:dribbble" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Google Page"
+                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:google" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Twitter Page"
+                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:twitter" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Instagram Page"
+                    class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:instagram" size="24" />
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </ClientOnly>
+      </div>
+    </section>
+    <section class="pb-20 relative block bg-gray-900">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-[79px]"
+        style="height: 80px"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-900 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4 pt-24 lg:pb-64">
+        <div
+          data-aos="fade-left"
+          class="flex flex-wrap text-center justify-center"
+        >
+          <div class="w-full lg:w-6/12 px-4">
+            <h2 class="text-4xl font-semibold text-white">
+              Build Something Great
+            </h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
+              Elevate your digital presence with our cutting-edge solutions
+              tailored just for you. Let's innovate together.
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap mt-12 justify-center">
+          <div
+            data-aos="fade-down-left"
+            class="w-full lg:w-3/12 px-4 text-center"
+          >
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+            >
+              <Icon name="mdi:medal" size="36" />
+            </div>
+            <h6 class="text-xl mt-5 font-semibold text-white">
+              Excellent Services
+            </h6>
+            <p class="mt-2 mb-4 text-gray-400">
+              Delivering top-notch quality and unparalleled expertise to turn
+              your vision into a digital reality.
+            </p>
+          </div>
+          <div
+            data-aos="fade-down-right"
+            class="w-full lg:w-3/12 px-4 text-center"
+          >
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+            >
+              <Icon name="mdi:poll" size="36" />
+            </div>
+            <h5 class="text-xl mt-5 font-semibold text-white">
+              Grow Your Market
+            </h5>
+            <p class="mt-2 mb-4 text-gray-400">
+              Expand your reach and capture new audiences with strategic
+              marketing and robust digital tools.
+            </p>
+          </div>
+          <div data-aos="fade-right" class="w-full lg:w-3/12 px-4 text-center">
+            <div
+              class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+            >
+              <Icon name="mdi:bulb" size="36" />
+            </div>
+            <h5 class="text-xl mt-5 font-semibold text-white">Launch Time</h5>
+            <p class="mt-2 mb-4 text-gray-400">
+              Embark on a journey to market dominance with products launched to
+              perfection and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="relative block py-24 lg:pt-0 bg-gray-900">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+          <div class="w-full lg:w-6/12 lg:px-4">
+            <div
+              data-aos="flip-down"
+              class="relative flex flex-col min-w-0 break-words w-full mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
+            >
+              <div class="flex-auto p-5 lg:p-10">
+                <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                  Complete this form and we will get back to you in 24 hours.
+                </p>
+                <div class="relative w-full mb-3 mt-8">
+                  <label
+                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="full-name"
+                  >
+                    Full Name
+                  </label>
+                  <input
+                    type="text"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Full Name"
+                    style="transition: all 0.15s ease 0s"
+                  />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="email"
+                  >
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Email"
+                    style="transition: all 0.15s ease 0s"
+                  />
+                </div>
+                <div class="relative w-full mb-3">
+                  <label
+                    class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                    for="message"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    rows="4"
+                    cols="80"
+                    class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                    placeholder="Type a message..."
+                  ></textarea>
+                </div>
+                <div class="text-center mt-6">
+                  <button
+                    aria-label="Send Message"
+                    style="transition: all 0.15s ease 0s"
+                    class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon class="mb-1 mr-1" name="mdi:send" />
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

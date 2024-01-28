@@ -119,7 +119,7 @@ export default defineNuxtConfig({
     // doc: https://image.nuxtjs.org/
     // You could try format: ["avif", "webp"] for more compression
     format: ["webp"],
-    domains: [siteUrl],
+    domains: [siteUrl, "https://cdn.pixabay.com"],
     quality: 80,
   },
 
