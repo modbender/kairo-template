@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "kairo-template",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,6 +15,7 @@
     "@nuxtjs/google-fonts": "3.1.3",
     "@nuxtjs/seo": "2.0.0-rc.5",
     "@nuxtjs/tailwindcss": "6.11.1",
+    "@studio-freight/lenis": "^1.0.34",
     "@tailwindcss/typography": "0.5.10",
     "@tsparticles/vue3": "3.0.0",
     "aos": "2.3.4",
