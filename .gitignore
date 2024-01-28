@@ -24,4 +24,4 @@ logs
 !.env.example
 
 # Packaging
-pack/code.zip
+pack/
