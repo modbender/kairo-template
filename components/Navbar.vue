@@ -29,6 +29,7 @@
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
           <li class="flex items-center">
             <a
+              aria-label="Check X (formerly Twitter) page"
               class="lg:text-white lg:hover:text-gray-300 text-gray-900 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               :href="$config.public.socialLinks.x"
             >
@@ -42,6 +43,7 @@
           </li>
           <li class="flex items-center">
             <a
+              aria-label="Check YouTube page"
               class="lg:text-white lg:hover:text-gray-300 text-gray-900 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               :href="$config.public.socialLinks.youtube"
             >
@@ -55,6 +57,7 @@
           </li>
           <li class="flex items-center">
             <a
+              aria-label="Check GitHub profile"
               class="lg:text-white lg:hover:text-gray-300 text-gray-900 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               :href="$config.public.socialLinks.github"
             >

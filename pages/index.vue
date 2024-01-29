@@ -45,7 +45,7 @@
                 >
                   <Icon name="mdi:android" size="64" />
                 </div>
-                <h4 class="text-xl font-semibold">Android Apps</h4>
+                <div class="text-xl font-semibold">Android Apps</div>
                 <p class="mt-2 mb-4 text-gray-600">
                   Building seamless Android apps and games.
                 </p>
@@ -64,7 +64,7 @@
                 >
                   <Icon name="mdi:language-html5" size="64" />
                 </div>
-                <h4 class="text-xl font-semibold">Websites</h4>
+                <div class="text-xl font-semibold">Websites</div>
                 <p class="mt-2 mb-4 text-gray-600">
                   Designing engaging websites that achieve perfect 100 PageSpeed
                   scores.
@@ -84,7 +84,7 @@
                 >
                   <Icon name="mdi:code" size="64" />
                 </div>
-                <h4 class="text-xl font-semibold">Efficient Code</h4>
+                <div class="text-xl font-semibold">Efficient Code</div>
                 <p class="mt-2 mb-4 text-gray-600">
                   Always aiming for maximum efficiency in programming.
                 </p>
@@ -136,6 +136,7 @@
                 alt="Top Notch Services"
                 src="https://cdn.pixabay.com/photo/2023/02/09/18/42/podcast-7779510_1280.png"
                 class="w-full align-middle rounded-t-lg"
+                loading="lazy"
                 format="webp"
                 quality="80"
               />
@@ -196,13 +197,14 @@
               alt="Skyrocketing Success"
               class="max-w-full rounded-lg shadow-lg shadow-black"
               src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
+              loading="lazy"
               format="webp"
               quality="80"
             />
           </div>
           <div
             data-aos="zoom-in"
-            class="w-full md:w-5/12 ml-auto mr-auto px-4 mt-16"
+            class="w-full md:w-5/12 ml-auto mr-auto px-4 mt-16 lg:mt-0"
           >
             <div class="md:pr-12">
               <div
@@ -266,7 +268,7 @@
               <div class="my-10 text-center lg:text-left">
                 <a
                   class="no-anim text-white bg-green-700 hover:bg-green-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800"
-                  aria-level="Check our apps on Google Play"
+                  aria-label="Check our apps on Google Play"
                   href="https://play.google.com/"
                   target="_blank"
                 >
@@ -313,11 +315,12 @@
                 src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
+                loading="lazy"
                 format="webp"
                 quality="80"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Me</h5>
+                <div class="text-xl font-bold">Me</div>
                 <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                   Web Developer
                 </p>
@@ -357,11 +360,12 @@
                 src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
+                loading="lazy"
                 format="webp"
                 quality="80"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Me</h5>
+                <div class="text-xl font-bold">Me</div>
                 <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                   Game Developer
                 </p>
@@ -394,11 +398,12 @@
                 src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
+                loading="lazy"
                 format="webp"
                 quality="80"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Me</h5>
+                <div class="text-xl font-bold">Me</div>
                 <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                   UI/UX Designer
                 </p>
@@ -438,11 +443,12 @@
                 src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
                 class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px"
+                loading="lazy"
                 format="webp"
                 quality="80"
               />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Me</h5>
+                <div class="text-xl font-bold">Me</div>
                 <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
                   Python Developer
                 </p>
@@ -527,9 +533,9 @@
             >
               <Icon name="mdi:medal" size="36" />
             </div>
-            <h6 class="text-xl mt-5 font-semibold text-white">
+            <div class="text-xl mt-5 font-semibold text-white">
               Excellent Services
-            </h6>
+            </div>
             <p class="mt-2 mb-4 text-gray-400">
               Delivering top-notch quality and unparalleled expertise to turn
               your vision into a digital reality.
@@ -544,9 +550,9 @@
             >
               <Icon name="mdi:poll" size="36" />
             </div>
-            <h5 class="text-xl mt-5 font-semibold text-white">
+            <div class="text-xl mt-5 font-semibold text-white">
               Grow Your Market
-            </h5>
+            </div>
             <p class="mt-2 mb-4 text-gray-400">
               Expand your reach and capture new audiences with strategic
               marketing and robust digital tools.
@@ -558,7 +564,7 @@
             >
               <Icon name="mdi:bulb" size="36" />
             </div>
-            <h5 class="text-xl mt-5 font-semibold text-white">Launch Time</h5>
+            <div class="text-xl mt-5 font-semibold text-white">Launch Time</div>
             <p class="mt-2 mb-4 text-gray-400">
               Embark on a journey to market dominance with products launched to
               perfection and beyond.

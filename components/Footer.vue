@@ -24,10 +24,10 @@
         <div
           class="w-full lg:w-6/12 px-4 lg:mb-0 mt-12 lg:mt-0 text-center lg:text-left"
         >
-          <h4 class="text-3xl font-bold">Let's keep in touch!</h4>
-          <h5 class="text-lg mt-0 mb-2 text-gray-700">
+          <div class="text-3xl font-bold">Let's keep in touch!</div>
+          <div class="text-lg mt-0 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
-          </h5>
+          </div>
           <div class="mt-6 text-center lg:text-left">
             <a
               target="_blank"
