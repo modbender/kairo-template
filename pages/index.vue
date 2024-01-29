@@ -7,7 +7,6 @@
       <Particles />
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
         <span
-          id="blackOverlay"
           class="w-full h-full absolute opacity-30 bg-black"
         ></span>
       </div>
@@ -27,7 +26,6 @@
     <section class="relative pb-20 -mt-24">
       <div class="absolute mt-48 top-auto w-full h-full bg-center bg-cover">
         <span
-          id="blackOverlay"
           class="w-full h-full absolute bg-purple-700"
         ></span>
       </div>
@@ -288,7 +286,6 @@
     <section class="relative pt-20 pb-20 lg:pb-36 text-white">
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
         <span
-          id="blackOverlay"
           class="w-full h-full absolute opacity-50 bg-blue-700"
         ></span>
       </div>
