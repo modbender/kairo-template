@@ -6,9 +6,7 @@
     >
       <Particles />
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
-        <span
-          class="w-full h-full absolute opacity-30 bg-black"
-        ></span>
+        <span class="w-full h-full absolute opacity-30 bg-black"></span>
       </div>
       <div data-aos="fade-down" class="container relative mx-auto">
         <div class="items-center flex flex-wrap">
@@ -25,9 +23,7 @@
     </div>
     <section class="relative pb-20 -mt-24">
       <div class="absolute mt-48 top-auto w-full h-full bg-center bg-cover">
-        <span
-          class="w-full h-full absolute bg-purple-700"
-        ></span>
+        <span class="w-full h-full absolute bg-purple-700"></span>
       </div>
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
@@ -285,9 +281,7 @@
     </section>
     <section class="relative pt-20 pb-20 lg:pb-36 text-white">
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
-        <span
-          class="w-full h-full absolute opacity-50 bg-blue-700"
-        ></span>
+        <span class="w-full h-full absolute opacity-50 bg-blue-700"></span>
       </div>
       <div class="container mx-auto px-4">
         <div
@@ -591,6 +585,8 @@
                     Full Name
                   </label>
                   <input
+                    id="full-name"
+                    name="full-name"
                     type="text"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                     placeholder="Full Name"
@@ -605,6 +601,8 @@
                     Email
                   </label>
                   <input
+                    id="email"
+                    name="email"
                     type="email"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
                     placeholder="Email"
@@ -619,6 +617,8 @@
                     Message
                   </label>
                   <textarea
+                    id="message"
+                    name="message"
                     rows="4"
                     cols="80"
                     class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
