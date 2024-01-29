@@ -200,7 +200,10 @@
               quality="80"
             />
           </div>
-          <div data-aos="zoom-in" class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div
+            data-aos="zoom-in"
+            class="w-full md:w-5/12 ml-auto mr-auto px-4 mt-16"
+          >
             <div class="md:pr-12">
               <div
                 class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
@@ -260,15 +263,19 @@
                   </div>
                 </li>
               </ul>
-              <div class="my-10">
+              <div class="my-10 text-center lg:text-left">
                 <a
-                  class="no-anim text-white bg-blue-700 hover:bg-blue-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                  class="no-anim text-white bg-green-700 hover:bg-green-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800"
                   aria-level="Check our apps on Google Play"
                   href="https://play.google.com/"
                   target="_blank"
                 >
-                  <Icon class="mb-1" name="mdi:external-link" size="26" />
-                  Google Play
+                  App Store
+                  <Icon
+                    class="text-white mb-1"
+                    name="mdi:google-play"
+                    size="24"
+                  />
                 </a>
               </div>
             </div>
@@ -276,7 +283,7 @@
         </div>
       </div>
     </section>
-    <section class="relative pt-20 pb-48 text-white">
+    <section class="relative pt-20 pb-20 lg:pb-36 text-white">
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
         <span
           id="blackOverlay"
@@ -286,7 +293,7 @@
       <div class="container mx-auto px-4">
         <div
           data-aos="fade-down"
-          class="flex flex-wrap justify-center text-center mb-24"
+          class="flex flex-wrap justify-center text-center mb-16 lg:mb-24"
         >
           <div class="w-full lg:w-6/12 px-4">
             <h2 class="text-4xl font-extrabold">Here are our heroes</h2>
@@ -566,7 +573,7 @@
           <div class="w-full lg:w-6/12 lg:px-4">
             <div
               data-aos="flip-down"
-              class="relative flex flex-col min-w-0 break-words w-full mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
+              class="relative flex flex-col min-w-0 break-words w-full mt-16 lg:mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
             >
               <div class="flex-auto p-5 lg:p-10">
                 <h4 class="text-2xl font-semibold">Want to work with us?</h4>

@@ -19,14 +19,16 @@
         ></polygon>
       </svg>
     </div>
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-3 lg:px-4">
       <div class="flex flex-wrap">
-        <div class="w-full lg:w-6/12 px-4">
+        <div
+          class="w-full lg:w-6/12 px-4 lg:mb-0 mt-12 lg:mt-0 text-center lg:text-left"
+        >
           <h4 class="text-3xl font-bold">Let's keep in touch!</h4>
           <h5 class="text-lg mt-0 mb-2 text-gray-700">
             Find us on any of these platforms, we respond 1-2 business days.
           </h5>
-          <div class="mt-6">
+          <div class="mt-6 text-center lg:text-left">
             <a
               target="_blank"
               aria-label="Check Twitter profile"
@@ -61,9 +63,9 @@
             </a>
           </div>
         </div>
-        <div class="w-full lg:w-6/12 px-4">
-          <div class="flex flex-wrap items-top mb-6">
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
+        <div class="w-full lg:w-6/12">
+          <div class="flex flex-wrap items-top mb-6 mt-8 lg:mt-0">
+            <div class="w-6/12 lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-bold mb-2"
               >
@@ -110,7 +112,7 @@
                 </li>
               </ul>
             </div>
-            <div class="w-full lg:w-4/12 px-4">
+            <div class="w-6/12 lg:w-4/12 px-4">
               <span
                 class="block uppercase text-gray-600 text-sm font-bold mb-2"
               >

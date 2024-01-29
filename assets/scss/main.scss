@@ -11,6 +11,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+// Background color should match Particles background color
+// Adding background color to body will overwrite Particles
+html {
+  @apply bg-black;
+}
+
 a {
   cursor: pointer;
 

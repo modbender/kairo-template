@@ -37,7 +37,7 @@
                 name="mdi:twitter"
                 size="24"
               />
-              <span class="lg:hidden inline-block ml-2"> X (F. Twitter) </span>
+              <span class="lg:hidden inline-block ml-2"> X </span>
             </a>
           </li>
           <li class="flex items-center">
