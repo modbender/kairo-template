@@ -9,7 +9,11 @@
           {{ error.message || error.statusMessage || "" }}
         </div>
         <hr class="my-5" />
-        <button class="text-white text-4xl" @click="handleError" aria-label="Go Home">
+        <button
+          class="text-white text-4xl"
+          @click="handleError"
+          aria-label="Go Home"
+        >
           <Icon class="mb-1" name="mdi:home" />
           Go Home
         </button>
@@ -31,4 +35,8 @@ const handleError = () => {
   clearError();
   router.push("/");
 };
+
+useSeoMeta({
+  title: unref(error).statusCode || "Error",
+});
 </script>
