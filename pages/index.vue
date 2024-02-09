@@ -96,9 +96,9 @@
             >
               <Icon name="mdi:account-supervisor" size="32" />
             </div>
-            <h3 class="text-white text-3xl mb-2 font-semibold leading-normal">
+            <div class="text-white text-3xl mb-2 font-semibold leading-normal">
               Code, Laugh, Launch!
-            </h3>
+            </div>
             <p
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-200"
             >
@@ -148,9 +148,9 @@
                       class="text-pink-600 fill-current"
                     ></polygon>
                   </svg>
-                  <h4 class="text-xl font-bold text-white">
+                  <div class="text-xl font-bold text-white">
                     Top Notch Services
-                  </h4>
+                  </div>
                   <p class="text-md font-light mt-2 text-white">
                     Instant services that will make you want to come again!
                   </p>
@@ -206,7 +206,7 @@
               >
                 <Icon name="mdi:rocket" size="32" />
               </div>
-              <h3 class="text-3xl font-semibold">Skyrocketing Success</h3>
+              <div class="text-3xl font-semibold">Skyrocketing Success</div>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 Dive into our toolbox of innovation with pre-built pages that
                 launch your project at warp speed. Customize a bit or a lot, and
@@ -223,7 +223,7 @@
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Pixel-Perfect Build Blocks</h4>
+                      <div class="text-gray-600">Pixel-Perfect Build Blocks</div>
                     </div>
                   </div>
                 </li>
@@ -240,7 +240,7 @@
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Stellar Page Examples</h4>
+                      <div class="text-gray-600">Stellar Page Examples</div>
                     </div>
                   </div>
                 </li>
@@ -254,7 +254,7 @@
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Adaptable Components</h4>
+                      <div class="text-gray-600">Adaptable Components</div>
                     </div>
                   </div>
                 </li>
@@ -289,7 +289,7 @@
           class="flex flex-wrap justify-center text-center mb-16 lg:mb-24"
         >
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-extrabold">Here are our heroes</h2>
+            <div class="text-4xl font-extrabold">Here are our heroes</div>
             <p class="text-lg leading-relaxed font-semibold m-4 text-gray-300">
               These heroes made this template possible
             </p>
@@ -505,9 +505,9 @@
           class="flex flex-wrap text-center justify-center"
         >
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white">
+            <div class="text-4xl font-semibold text-white">
               Build Something Great
-            </h2>
+            </div>
             <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
               Elevate your digital presence with our cutting-edge solutions
               tailored just for you. Let's innovate together.
@@ -573,7 +573,7 @@
               class="relative flex flex-col min-w-0 break-words w-full mt-16 lg:mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
             >
               <div class="flex-auto p-5 lg:p-10">
-                <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                <div class="text-2xl font-semibold">Want to work with us?</div>
                 <p class="leading-relaxed mt-1 mb-4 text-gray-600">
                   Complete this form and we will get back to you in 24 hours.
                 </p>

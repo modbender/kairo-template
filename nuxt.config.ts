@@ -52,6 +52,13 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/main.scss"],
 
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+
   site: {
     url: siteUrl,
     name: process.env.NUXT_PUBLIC_SITE_NAME, // Will be displayed on home page
@@ -96,6 +103,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true }, // Enabled only for dev automatically
 
   modules: [
+    //https://html-validator.nuxtjs.org/
+    "@nuxtjs/html-validator",
+
     // Page Transition Animation - https://auto-animate.formkit.com/
     "@formkit/auto-animate/nuxt",
 

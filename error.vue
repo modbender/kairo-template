@@ -5,11 +5,11 @@
         <h1 class="text-8xl text-white">
           {{ error.statusCode }}
         </h1>
-        <h2 class="text-2xl text-white">
+        <div class="text-2xl text-white">
           {{ error.message || error.statusMessage || "" }}
-        </h2>
+        </div>
         <hr class="my-5" />
-        <button class="text-white text-4xl" @click="handleError">
+        <button class="text-white text-4xl" @click="handleError" aria-label="Go Home">
           <Icon class="mb-1" name="mdi:home" />
           Go Home
         </button>

@@ -7,7 +7,7 @@
       <div class="prose max-w-none text-black">
         <div class="text-center text-5xl font-extrabold">ABOUT US</div>
         <div class="mt-8">
-          <h3 class="font-extrabold">Our Journey</h3>
+          <div class="font-extrabold">Our Journey</div>
           <p>
             Welcome to [Your Company Name], where our passion for innovation
             meets the world of app development. Founded in [Year], our mission
@@ -16,7 +16,7 @@
             fresh talent, we've carved out a niche for ourselves in the bustling
             digital landscape.
           </p>
-          <h3 class="font-extrabold">Our Philosophy</h3>
+          <div class="font-extrabold">Our Philosophy</div>
           <p>
             We believe in more than just developing apps. We believe in creating
             experiences that resonate. Our philosophy is simple: understand the
@@ -24,7 +24,7 @@
             allows us to design apps that not only meet needs but also delight
             users.
           </p>
-          <h3 class="font-extrabold">Our Team</h3>
+          <div class="font-extrabold">Our Team</div>
           <p>
             At the heart of [Your Company Name] is a diverse team of dreamers
             and doers. Designers, developers, and strategists, united by a
@@ -32,7 +32,7 @@
             functions like a well-oiled machine, with each of us bringing our
             unique skills and personalities to the table.
           </p>
-          <h3 class="font-extrabold">Our Approach</h3>
+          <div class="font-extrabold">Our Approach</div>
           <p>
             Our approach is collaborative, transparent, and agile. We integrate
             our clients into every step of the development process, ensuring
@@ -40,7 +40,7 @@
             ourselves on our ability to adapt, learn, and stay ahead of the
             curve in a constantly evolving tech world.
           </p>
-          <h3 class="font-extrabold">Our Commitment</h3>
+          <div class="font-extrabold">Our Commitment</div>
           <p>
             To our clients, we promise unwavering commitment to quality and
             innovation. To our users, we promise engaging apps that make life a
@@ -48,7 +48,7 @@
             to never stop learning, exploring, and pushing the boundaries of
             what's possible.
           </p>
-          <h3 class="font-extrabold">Join Us</h3>
+          <div class="font-extrabold">Join Us</div>
           <p>
             Whether you're looking to develop an app, join our team, or simply
             learn more about what we do, we're always here to chat. Connect with

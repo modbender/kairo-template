@@ -7,39 +7,40 @@
       <div class="prose max-w-none text-black">
         <div class="text-center text-5xl font-extrabold">CONTACT US</div>
         <div class="mt-8">
-          <h3 class="font-extrabold">Get in Touch with [Your Company Name]</h3>
+          <div class="font-extrabold">Get in Touch with [Your Company Name]</div>
           <p>
             We're here to help and answer any question you might have. We look
             forward to hearing from you!
           </p>
-          <h3 class="font-extrabold">Email Us:</h3>
+          <div class="font-extrabold">Email Us:</div>
           <p>
             For general inquiries, reach out to us at [email@example.com]. For
             support, please email [support@example.com].
           </p>
-          <h3 class="font-extrabold">Call Us:</h3>
+          <div class="font-extrabold">Call Us:</div>
           <p>Speak directly with our team at [Phone Number].</p>
-          <h3 class="font-extrabold">Visit Us:</h3>
+          <div class="font-extrabold">Visit Us:</div>
           <p>[Your Company Address]</p>
           <div>
             <iframe
               class="w-full"
+              title="Google Map Location"
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d381.2755515702916!2d-102.88425447510082!3d30.893970832216954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1706344169721!5m2!1sen!2sin"
               width="100%"
               height="450"
               style="border: 0"
               allowfullscreen=""
-              loading="lazy"
+              loading="async"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <h3 class="font-extrabold">Business Hours:</h3>
+          <div class="font-extrabold">Business Hours:</div>
           <ul>
             <li>Monday to Friday - 9:00 AM to 5:00 PM</li>
             <li>Saturday - 10:00 AM to 3:00 PM</li>
             <li>Sunday - Closed</li>
           </ul>
-          <h3 class="font-extrabold">Send Us a Message:</h3>
+          <div class="font-extrabold">Send Us a Message:</div>
           <p>
             Send a message to us by filling out the
             <NuxtLink to="/#contact">form at home page</NuxtLink>, and we'll get

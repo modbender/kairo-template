@@ -13,7 +13,7 @@
             Policy document contains types of information that is collected and
             recorded by [Your Company Name] and how we use it.
           </p>
-          <h3 class="font-extrabold">Information We Collect</h3>
+          <div class="font-extrabold">Information We Collect</div>
           <p>
             The personal information that you are asked to provide, and the
             reasons why you are asked to provide it, will be made clear to you
@@ -25,7 +25,7 @@
             contents of the message and/or attachments you may send us, and any
             other information you may choose to provide.
           </p>
-          <h2 class="font-extrabold">How We Use Your Information</h2>
+          <div class="font-extrabold">How We Use Your Information</div>
           <p>
             We use the information we collect in various ways, including to:
           </p>

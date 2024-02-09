@@ -15,8 +15,9 @@
           Kairo Template
         </NuxtLink>
         <button
-          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           type="button"
+          aria-label="Site Menu"
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
           @click="toggleNavbar"
         >
           <Icon class="text-white" name="mdi:menu" />
