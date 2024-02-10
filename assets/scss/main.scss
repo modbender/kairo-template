@@ -1,7 +1,7 @@
 @import "preloader";
 @import "error";
 
-@import "~/node_modules/aos/dist/aos";
+@import "aos/dist/aos";
 @import "lenis";
 
 html,
@@ -17,7 +17,7 @@ html {
   @apply bg-black;
 }
 
-:not(.no-anim) a {
+:not(.no-link-anim) a {
   cursor: pointer;
 
   /* Animate the line from the left */
