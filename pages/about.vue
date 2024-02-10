@@ -65,4 +65,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineOgImageComponent("NuxtSeo");
+
+useSeoMeta({
+  title: "About",
+  description: "About Kairo Template",
+});
+</script>

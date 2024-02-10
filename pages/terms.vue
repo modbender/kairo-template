@@ -112,4 +112,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineOgImageComponent("NuxtSeo");
+
+useSeoMeta({
+  title: "Terms & Conditions",
+  description: "Terms and Conditions",
+});
+</script>

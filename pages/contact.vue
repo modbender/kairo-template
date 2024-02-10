@@ -7,7 +7,9 @@
       <div class="prose max-w-none text-black">
         <div class="text-center text-5xl font-extrabold">CONTACT US</div>
         <div class="mt-8">
-          <div class="font-extrabold">Get in Touch with [Your Company Name]</div>
+          <div class="font-extrabold">
+            Get in Touch with [Your Company Name]
+          </div>
           <p>
             We're here to help and answer any question you might have. We look
             forward to hearing from you!
@@ -57,4 +59,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineOgImageComponent("NuxtSeo");
+
+useSeoMeta({
+  title: "Contact",
+  description: "Contact Us",
+});
+</script>

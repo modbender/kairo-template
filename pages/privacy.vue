@@ -54,4 +54,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineOgImageComponent("NuxtSeo");
+
+useSeoMeta({
+  title: "Privacy Policy",
+  description: "Privacy and Policy",
+});
+</script>

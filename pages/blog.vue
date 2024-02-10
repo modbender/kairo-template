@@ -59,4 +59,11 @@
 import postListData from "@/data/blog/posts.json";
 
 const postList = ref(postListData);
+
+defineOgImageComponent("NuxtSeo");
+
+useSeoMeta({
+  title: "Blog",
+  description: "Blog Posts",
+});
 </script>
