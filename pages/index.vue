@@ -223,7 +223,9 @@
                       </span>
                     </div>
                     <div>
-                      <div class="text-gray-600">Pixel-Perfect Build Blocks</div>
+                      <div class="text-gray-600">
+                        Pixel-Perfect Build Blocks
+                      </div>
                     </div>
                   </div>
                 </li>
@@ -261,7 +263,7 @@
               </ul>
               <div class="my-10 text-center lg:text-left">
                 <a
-                  class="no-anim text-white bg-green-700 hover:bg-green-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800"
+                  class="no-anim text-white bg-green-700 hover:bg-green-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-green-800"
                   aria-label="Check our apps on Google Play"
                   href="https://play.google.com/"
                   target="_blank"

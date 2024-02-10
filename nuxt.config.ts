@@ -102,6 +102,9 @@ export default defineNuxtConfig({
     // Page Transition Animation - https://auto-animate.formkit.com/
     "@formkit/auto-animate/nuxt",
 
+    // https://vueuse.org/nuxt/README.html
+    "@vueuse/nuxt",
+
     // Tailwind CSS - https://tailwindcss.nuxtjs.org/
     "@nuxtjs/tailwindcss",
 
@@ -122,7 +125,11 @@ export default defineNuxtConfig({
     // doc: https://image.nuxtjs.org/
     // You could try format: ["avif", "webp"] for more compression
     format: ["webp"],
-    domains: [siteUrl, "https://cdn.pixabay.com"],
+    domains: [
+      siteUrl,
+      "https://cdn.pixabay.com",
+      "https://images.unsplash.com",
+    ],
     quality: 80,
   },
 

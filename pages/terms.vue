@@ -2,7 +2,7 @@
   <div class="mt-24 mb-32">
     <Particles />
     <div
-      class="bg-white/90 container mx-auto p-16 w-full min-h-screen rounded-2xl"
+      class="bg-white/90 container mx-auto p-6 md:p-16 w-full min-h-screen rounded-2xl"
     >
       <div class="prose max-w-none text-black">
         <div class="text-center text-5xl font-extrabold">

@@ -11,7 +11,7 @@
 // If you want more particle effect presets you can find them in below link
 // https://particles.js.org/samples/index.html#Parallax
 
-import parallaxTriangles from "../data/particles/parallaxTriangles.json";
+import parallaxTriangles from "@/data/particles/parallaxTriangles.json";
 // import amongUs from "../data/particles/amongUs.json";
 // import twinkle from "../data/particles/twinkle.json";
 
