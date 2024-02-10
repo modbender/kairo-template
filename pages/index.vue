@@ -194,7 +194,7 @@
               alt="Skyrocketing Success"
               class="max-w-full rounded-lg shadow-lg shadow-black"
               src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
-              sizes="300px md:400px lg:500px"
+              sizes="300px md:350px lg:450px"
               width="907"
               height="1280"
               loading="lazy"
