@@ -52,13 +52,6 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/main.scss"],
 
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
   site: {
     url: siteUrl,
     name: process.env.NUXT_PUBLIC_SITE_NAME, // Will be displayed on home page
