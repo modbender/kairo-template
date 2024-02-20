@@ -5,11 +5,9 @@
       class="bg-white/90 container mx-auto p-6 md:p-16 w-full min-h-screen rounded-2xl"
     >
       <div class="prose max-w-none text-black">
-        <div class="text-center text-5xl font-extrabold">
-          TERMS & CONDITIONS
-        </div>
+        <h1 class="text-center text-5xl font-extrabold">TERMS & CONDITIONS</h1>
         <div class="mt-8">
-          <div class="font-extrabold">Welcome to [Your Company Name]</div>
+          <h2>Welcome to [Your Company Name]</h2>
           <p>
             These terms and conditions outline the rules and regulations for the
             use of [Your Company Name]'s Website, located at [Your Website URL].
@@ -19,13 +17,13 @@
             conditions. Do not continue to use [Your Website URL] if you do not
             agree to take all of the terms and conditions stated on this page.
           </p>
-          <div class="font-extrabold">Cookies</div>
+          <h2>Cookies</h2>
           <p>
             The website uses cookies to help personalize your online experience.
             By accessing [Your Company Name], you agreed to use the required
             cookies.
           </p>
-          <div class="font-extrabold">License</div>
+          <h2>License</h2>
           <p>
             Unless otherwise stated, [Your Company Name] and/or its licensors
             own the intellectual property rights for all material on [Your
@@ -41,7 +39,7 @@
             Company Name], its agents, and/or affiliates. Comments reflect the
             views and opinions of the person who posts their views and opinions.
           </p>
-          <div class="font-extrabold">Hyperlinking to our Content</div>
+          <h2>Hyperlinking to our Content</h2>
           <p>
             The following organizations may link to our Website without prior
             written approval:
@@ -63,36 +61,36 @@
             or approval of the linking party and its products and/or services;
             and (c) fits within the context of the linking party's site.
           </p>
-          <div class="font-extrabold">iFrames</div>
+          <h2>iFrames</h2>
           <p>
             Without prior approval and written permission, you may not create
             frames around our Webpages that alter in any way the visual
             presentation or appearance of our Website.
           </p>
-          <div class="font-extrabold">Content Liability</div>
+          <h2>Content Liability</h2>
           <p>
             We shall not be held responsible for any content that appears on
             your Website. You agree to protect and defend us against all claims
             that are rising on your Website.
           </p>
-          <div class="font-extrabold">Your Privacy</div>
+          <h2>Your Privacy</h2>
           <p>
             Please read our <NuxtLink to="/privacy">Privacy Policy</NuxtLink>.
           </p>
-          <div class="font-extrabold">Reservation of Rights</div>
+          <h2>Reservation of Rights</h2>
           <p>
             We reserve the right to request that you remove all links or any
             particular link to our Website. You approve to immediately remove
             all links to our Website upon request.
           </p>
-          <div class="font-extrabold">Removal of links from our website</div>
+          <h2>Removal of links from our website</h2>
           <p>
             If you find any link on our Website that is offensive for any
             reason, you are free to contact and inform us at any moment. We will
             consider requests to remove links but we are not obligated to or so
             or to respond to you directly.
           </p>
-          <div class="font-extrabold">Disclaimer</div>
+          <h2>Disclaimer</h2>
           <p>
             The limitations and prohibitions of liability set in this Section
             and elsewhere in this disclaimer: (a) are subject to the preceding

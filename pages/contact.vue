@@ -7,21 +7,19 @@
       <div class="prose max-w-none text-black">
         <div class="text-center text-5xl font-extrabold">CONTACT US</div>
         <div class="mt-8">
-          <div class="font-extrabold">
-            Get in Touch with [Your Company Name]
-          </div>
+          <h2>Get in Touch with [Your Company Name]</h2>
           <p>
             We're here to help and answer any question you might have. We look
             forward to hearing from you!
           </p>
-          <div class="font-extrabold">Email Us:</div>
+          <h2>Email Us:</h2>
           <p>
             For general inquiries, reach out to us at [email@example.com]. For
             support, please email [support@example.com].
           </p>
-          <div class="font-extrabold">Call Us:</div>
+          <h2>Call Us:</h2>
           <p>Speak directly with our team at [Phone Number].</p>
-          <div class="font-extrabold">Visit Us:</div>
+          <h2>Visit Us:</h2>
           <p>[Your Company Address]</p>
           <div>
             <iframe
@@ -36,13 +34,13 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          <div class="font-extrabold">Business Hours:</div>
+          <h2>Business Hours:</h2>
           <ul>
             <li>Monday to Friday - 9:00 AM to 5:00 PM</li>
             <li>Saturday - 10:00 AM to 3:00 PM</li>
             <li>Sunday - Closed</li>
           </ul>
-          <div class="font-extrabold">Send Us a Message:</div>
+          <h2>Send Us a Message:</h2>
           <p>
             Send a message to us by filling out the
             <NuxtLink to="/#contact">form at home page</NuxtLink>, and we'll get

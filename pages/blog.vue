@@ -7,7 +7,7 @@
       <div class="text-center text-5xl font-extrabold">BLOG</div>
       <div class="grid md:grid-cols-4 gap-4 mt-10">
         <NuxtLink
-          to="#"
+          :to="`/post/${postData.slug}`"
           class="no-anim hover:shadow hover:shadow-green-500 flex p-4 border-2 border-gray-300 rounded-2xl"
           :class="{
             'md:col-span-4 md:flex-row flex-col md:gap-6': postData.featured,

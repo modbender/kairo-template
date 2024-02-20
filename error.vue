@@ -1,16 +1,16 @@
 <template>
   <main class="error-page-container">
-    <div class="error-page-box">
+    <div class="error-page-box px-3">
       <div class="error-page-content">
-        <h1 class="text-8xl text-white">
+        <h1 class="text-8xl text-white font-bold font-mono">
           {{ error.statusCode }}
         </h1>
-        <div class="text-2xl text-white">
+        <div class="text-4xl text-white font-bold font-mono">
           {{ error.message || error.statusMessage || "" }}
         </div>
         <hr class="my-5" />
         <button
-          class="text-white text-4xl"
+          class="text-white text-2xl font-bold font-mono uppercase"
           @click="handleError"
           aria-label="Go Home"
         >
@@ -37,6 +37,6 @@ const handleError = () => {
 };
 
 useSeoMeta({
-  title: unref(error).statusCode || "Error",
+  title: `Error ${unref(error).statusCode}`,
 });
 </script>

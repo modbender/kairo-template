@@ -5,7 +5,7 @@
       class="bg-white/95 container mx-auto p-6 md:p-16 w-full min-h-screen rounded-2xl"
     >
       <div class="prose max-w-none text-black">
-        <div class="text-center text-5xl font-extrabold">PRIVACY POLICY</div>
+        <h1 class="text-center text-5xl font-extrabold">PRIVACY POLICY</h1>
         <div class="mt-8">
           <p>
             At [Your Company Name], accessible from [Your Company Website], one
@@ -13,7 +13,7 @@
             Policy document contains types of information that is collected and
             recorded by [Your Company Name] and how we use it.
           </p>
-          <div class="font-extrabold">Information We Collect</div>
+          <h2>Information We Collect</h2>
           <p>
             The personal information that you are asked to provide, and the
             reasons why you are asked to provide it, will be made clear to you
@@ -25,7 +25,7 @@
             contents of the message and/or attachments you may send us, and any
             other information you may choose to provide.
           </p>
-          <div class="font-extrabold">How We Use Your Information</div>
+          <h2>How We Use Your Information</h2>
           <p>
             We use the information we collect in various ways, including to:
           </p>

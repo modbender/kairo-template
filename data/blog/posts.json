@@ -1,6 +1,7 @@
 [
   {
     "title": "Exploring the Future of Web Development with Nuxt 3",
+    "slug": "exploring",
     "description": "Dive into the latest features and improvements in Nuxt 3 that make it a powerhouse for developing modern web applications. Learn how its enhanced performance and new capabilities can streamline your development process.",
     "created_at": "2024-02-10",
     "image": "https://images.unsplash.com/photo-1485740112426-0c2549fa8c86?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -9,6 +10,7 @@
   },
   {
     "title": "Maximizing Productivity with Jamstack Architecture",
+    "slug": "maximizing",
     "description": "Uncover the benefits of using Jamstack architecture for your next project. From faster loading times to improved security, see how Jamstack can elevate your web development workflow and enhance user experience.",
     "created_at": "2024-02-02",
     "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -16,6 +18,7 @@
   },
   {
     "title": "Integrating APIs Efficiently in Vue Applications",
+    "slug": "integrate",
     "description": "Learn the best practices for integrating third-party APIs into your Vue.js applications. This guide covers everything from choosing the right API to optimizing request performance for a seamless user experience.",
     "created_at": "2024-01-30",
     "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -23,6 +26,7 @@
   },
   {
     "title": "The Rise of TypeScript in Frontend Development",
+    "slug": "typescript",
     "description": "Discover why TypeScript has become a game-changer in frontend development. Understand its benefits over JavaScript, including improved code quality and easier bug detection, through practical examples and use cases.",
     "created_at": "2024-01-08",
     "image": "https://images.unsplash.com/photo-1551295022-de5522c94e08?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -30,6 +34,7 @@
   },
   {
     "title": "Building Scalable Web Applications with Microservices",
+    "slug": "microservices",
     "description": "Explore the microservices architecture and how it can help you build more scalable and maintainable web applications. Learn the key concepts, advantages, and how to overcome common challenges in this comprehensive guide.",
     "created_at": "2024-01-05",
     "image": "https://images.unsplash.com/photo-1481026469463-66327c86e544?q=80&w=2108&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -37,6 +42,7 @@
   },
   {
     "title": "Enhancing User Experience with CSS Animations",
+    "slug": "css-animations",
     "description": "Unlock the power of CSS animations to enhance user experience on your website. From simple transitions to complex animations, discover how to make your web pages more interactive and engaging.",
     "created_at": "2023-02-15",
     "image": "https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -44,6 +50,7 @@
   },
   {
     "title": "Securing Your Web Applications: Best Practices",
+    "slug": "securing-web",
     "description": "Security is paramount in web development. Learn about the latest security best practices for web applications, including how to protect against common vulnerabilities and threats to keep your users safe.",
     "created_at": "2022-01-30",
     "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",

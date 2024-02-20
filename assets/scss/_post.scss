@@ -1,0 +1,70 @@
+.post-body {
+  --tw-prose-invert-body: #fff;
+
+  * {
+    word-break: break-word;
+  }
+
+  p,
+  li {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  p,
+  li,
+  pre,
+  img,
+  blockquote,
+  figure {
+    line-height: 32px;
+    letter-spacing: -0.003em;
+  }
+
+  p,
+  pre,
+  img,
+  blockquote,
+  figure,
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply mt-8 mb-0;
+  }
+
+  h1 + p,
+  h2 + p,
+  h3 + p,
+  h4 + p {
+    @apply mt-2;
+  }
+
+  p:has(> img) {
+    text-align: center;
+  }
+
+  pre {
+    background: #000;
+    border: 2px solid #6b6b6b;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 12px;
+    word-wrap: normal;
+
+    code {
+      font-size: 120%;
+    }
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  iframe {
+    aspect-ratio: 16/9;
+    width: 1920px !important;
+  }
+}
