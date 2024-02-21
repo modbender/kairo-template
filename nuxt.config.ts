@@ -119,6 +119,9 @@ export default defineNuxtConfig({
 
     // Best Native Image optimization - https://image.nuxt.com/
     "@nuxt/image",
+
+    // Swiper - https://nuxt.com/modules/swiper
+    "nuxt-swiper",
   ],
 
   image: {

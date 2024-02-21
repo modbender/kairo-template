@@ -1,0 +1,23 @@
+.testimonial-swiper {
+  --swiper-pagination-bottom: 0;
+
+  .swiper-pagination {
+    @apply mt-5;
+
+    .swiper-pagination-bullet {
+      @apply bg-gray-100;
+
+      width: 10px;
+      height: 10px;
+      border-radius: 0;
+
+      transition: all 0.3s;
+
+      &.swiper-pagination-bullet-active {
+        @apply bg-white;
+
+        width: 25px;
+      }
+    }
+  }
+}
