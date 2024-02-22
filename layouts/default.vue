@@ -5,6 +5,6 @@
     <main>
       <slot />
     </main>
-    <Footer />
+    <LazyFooter />
   </div>
 </template>
