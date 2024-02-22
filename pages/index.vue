@@ -12,10 +12,10 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <h1 class="text-white font-bold text-5xl">
-              Crafting Your Imagination into Reality.
+              Crafting Your Imagination into Reality
             </h1>
             <h2 class="mt-4 text-lg text-gray-300">
-              The perfect template for your digital masterpiece.
+              The perfect template for your digital masterpiece
             </h2>
           </div>
         </div>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="text-xl font-semibold">Android Apps</div>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Building seamless Android apps and games.
+                  Building seamless Android apps and games
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="text-xl font-semibold">Efficient Code</div>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Always aiming for maximum efficiency in programming.
+                  Always aiming for maximum efficiency in programming
                 </p>
               </div>
             </div>
@@ -103,7 +103,7 @@
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-200"
             >
               Elevate your app game with a sprinkle of our coding magic and a
-              whole lot of fun.
+              whole lot of fun
             </p>
             <p
               class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-200"
@@ -289,7 +289,7 @@
     </section>
     <section class="relative pt-20 pb-20 lg:pb-36 text-white">
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
-        <span class="w-full h-full absolute opacity-50 bg-red-700"></span>
+        <span class="w-full h-full absolute opacity-50 bg-pink-600"></span>
       </div>
       <div class="container mx-auto px-4">
         <div
@@ -577,7 +577,7 @@
             </h2>
             <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
               Elevate your digital presence with our cutting-edge solutions
-              tailored just for you. Let's innovate together.
+              tailored just for you. Let's innovate together
             </p>
           </div>
         </div>
@@ -596,7 +596,7 @@
             </div>
             <p class="mt-2 mb-4 text-gray-400">
               Delivering top-notch quality and unparalleled expertise to turn
-              your vision into a digital reality.
+              your vision into a digital reality
             </p>
           </div>
           <div
@@ -613,7 +613,7 @@
             </div>
             <p class="mt-2 mb-4 text-gray-400">
               Expand your reach and capture new audiences with strategic
-              marketing and robust digital tools.
+              marketing and robust digital tools
             </p>
           </div>
           <div data-aos="fade-right" class="w-full lg:w-3/12 px-4 text-center">
@@ -625,7 +625,7 @@
             <div class="text-xl mt-5 font-semibold text-white">Launch Time</div>
             <p class="mt-2 mb-4 text-gray-400">
               Embark on a journey to market dominance with products launched to
-              perfection and beyond.
+              perfection and beyond
             </p>
           </div>
         </div>
@@ -642,7 +642,7 @@
               <div class="flex-auto p-5 lg:p-10">
                 <div class="text-2xl font-semibold">Want to work with us?</div>
                 <p class="leading-relaxed mt-1 mb-4 text-gray-600">
-                  Complete this form and we will get back to you in 24 hours.
+                  Complete this form and we will get back to you in 24 hours
                 </p>
                 <div class="relative w-full mb-3 mt-8">
                   <label
