@@ -287,13 +287,221 @@
         </div>
       </div>
     </section>
+    <section class="relative pt-20 pb-20 lg:pb-36 text-white">
+      <div class="absolute top-0 w-full h-full bg-center bg-cover">
+        <span class="w-full h-full absolute opacity-50 bg-red-700"></span>
+      </div>
+      <div class="container mx-auto px-4">
+        <div
+          data-aos="fade-down"
+          class="flex flex-wrap justify-center text-center mb-16 lg:mb-24"
+        >
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="text-4xl font-extrabold">Here are our heroes</div>
+            <p class="text-lg leading-relaxed font-semibold m-4 text-gray-300">
+              These heroes made this template possible
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-wrap">
+          <div
+            data-aos="fade-left"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+          >
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-32"
+                sizes="120px"
+                width="128"
+                height="116"
+                loading="lazy"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <div class="text-xl font-bold">Me</div>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  Web Developer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Twitter Page"
+                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:twitter" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Facebook Page"
+                    class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:facebook" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Dribbble Page"
+                    class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:dribbble" size="24" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-down"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+          >
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-32"
+                sizes="120px"
+                width="128"
+                height="116"
+                loading="lazy"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <div class="text-xl font-bold">Me</div>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  Game Developer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Google Page"
+                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:google" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Facebook Page"
+                    class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:facebook" size="24" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-down"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+          >
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-32"
+                sizes="120px"
+                width="128"
+                height="116"
+                loading="lazy"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <div class="text-xl font-bold">Me</div>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  UI/UX Designer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Google Page"
+                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:google" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Twitter Page"
+                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:twitter" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Instagram Page"
+                    class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:instagram" size="24" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="fade-left"
+            class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4"
+          >
+            <div class="px-6">
+              <NuxtImg
+                alt="Me"
+                src="https://cdn.pixabay.com/photo/2016/12/07/21/01/cartoon-1890438_1280.jpg"
+                class="shadow-lg rounded-full mx-auto max-w-32"
+                sizes="120px"
+                width="128"
+                height="116"
+                loading="lazy"
+                format="webp"
+                quality="80"
+              />
+              <div class="pt-6 text-center">
+                <div class="text-xl font-bold">Me</div>
+                <p class="mt-1 text-sm text-gray-300 uppercase font-semibold">
+                  Python Developer
+                </p>
+                <div class="mt-6">
+                  <button
+                    aria-label="Go to Dribbble Page"
+                    class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:dribbble" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Google Page"
+                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:google" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Twitter Page"
+                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:twitter" size="24" />
+                  </button>
+                  <button
+                    aria-label="Go to Instagram Page"
+                    class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                    type="button"
+                  >
+                    <Icon name="mdi:instagram" size="24" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="bg-blue-900 pt-10 pb-10 lg:pb-20">
       <div
         class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6"
       >
         <div class="max-w-screen-md mx-auto">
           <Icon size="96" class="text-white" name="mdi:format-quote-open" />
-          <Swiper
+          <LazySwiper
             class="testimonial-swiper"
             :modules="[SwiperAutoplay, SwiperPagination]"
             :slides-per-view="1"
@@ -334,7 +542,7 @@
                 class="flex items-center justify-center mt-6 space-x-3"
               ></div>
             </SwiperSlide>
-          </Swiper>
+          </LazySwiper>
         </div>
       </div>
     </section>
