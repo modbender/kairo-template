@@ -173,8 +173,8 @@
           class="absolute bottom-0 overflow-hidden"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
-          version="1.1"
           viewBox="0 0 2560 100"
+          version="1.1"
           x="0"
           y="0"
         >
@@ -191,15 +191,15 @@
             class="w-full md:w-4/12 ml-auto mr-auto px-4 mb-6"
           >
             <NuxtImg
+              loading="lazy"
               alt="Skyrocketing Success"
               class="max-w-full rounded-lg shadow-lg shadow-black"
               src="https://cdn.pixabay.com/photo/2019/07/26/20/52/man-4365597_1280.png"
-              sizes="300px md:350px lg:450px"
-              width="907"
-              height="1280"
-              loading="lazy"
+              sizes="300px md:350px xl:450px"
               format="webp"
               quality="80"
+              height="1280"
+              width="907"
             />
           </div>
           <div
@@ -311,11 +311,12 @@
               v-for="testimonialSlide in testimonialData"
               :key="testimonialSlide"
             >
-              <p class="text-2xl font-medium text-white">
+              <blockquote class="text-2xl font-medium text-white">
                 "{{ testimonialSlide.testimonial }}"
-              </p>
+              </blockquote>
               <div class="flex items-center justify-center gap-3 mt-5">
                 <NuxtImg
+                  loading="lazy"
                   class="w-10 h-10 rounded-full"
                   :src="testimonialSlide.profile.image"
                   alt="Testimonial profile picture"
@@ -324,7 +325,7 @@
                   <div class="font-medium text-white">
                     {{ testimonialSlide.profile.name }}
                   </div>
-                  <div class="text-sm font-light text-gray-400">
+                  <div class="text-sm font-light text-gray-300">
                     {{ testimonialSlide.profile.position }}
                   </div>
                 </div>
