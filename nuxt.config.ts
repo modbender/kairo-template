@@ -52,10 +52,10 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/main.scss"],
 
-  site: {
-    url: siteUrl,
-    name: process.env.NUXT_PUBLIC_SITE_NAME, // Will be displayed on home page
-    description: process.env.NUXT_PUBLIC_SITE_DESCRIPTION,
+  postcss: {
+    plugins: {
+      "postcss-import": true,
+    },
   },
 
   runtimeConfig: {
@@ -123,6 +123,12 @@ export default defineNuxtConfig({
     // Swiper - https://nuxt.com/modules/swiper
     "nuxt-swiper",
   ],
+
+  site: {
+    url: siteUrl,
+    name: process.env.NUXT_PUBLIC_SITE_NAME, // Will be displayed on home page
+    description: process.env.NUXT_PUBLIC_SITE_DESCRIPTION,
+  },
 
   image: {
     // doc: https://image.nuxtjs.org/
