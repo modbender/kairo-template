@@ -14,9 +14,9 @@
             <h1 class="text-white font-bold text-5xl">
               Crafting Your Imagination into Reality.
             </h1>
-            <p class="mt-4 text-lg text-gray-300">
+            <h2 class="mt-4 text-lg text-gray-300">
               The perfect template for your digital masterpiece.
-            </p>
+            </h2>
           </div>
         </div>
       </div>
@@ -96,9 +96,9 @@
             >
               <Icon name="mdi:account-supervisor" size="32" />
             </div>
-            <div class="text-white text-3xl mb-2 font-semibold leading-normal">
+            <h2 class="text-white text-3xl mb-2 font-semibold leading-normal">
               Code, Laugh, Launch!
-            </div>
+            </h2>
             <p
               class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-200"
             >
@@ -151,9 +151,9 @@
                       class="text-pink-600 fill-current"
                     ></polygon>
                   </svg>
-                  <div class="text-xl font-bold text-white">
+                  <h2 class="text-xl font-bold text-white">
                     Top Notch Services
-                  </div>
+                  </h2>
                   <p class="text-md font-light mt-2 text-white">
                     Instant services that will make you want to come again!
                   </p>
@@ -212,7 +212,7 @@
               >
                 <Icon name="mdi:rocket" size="32" />
               </div>
-              <div class="text-3xl font-semibold">Skyrocketing Success</div>
+              <h2 class="text-3xl font-semibold">Skyrocketing Success</h2>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
                 Dive into our toolbox of innovation with pre-built pages that
                 launch your project at warp speed. Customize a bit or a lot, and
@@ -297,7 +297,7 @@
           class="flex flex-wrap justify-center text-center mb-16 lg:mb-24"
         >
           <div class="w-full lg:w-6/12 px-4">
-            <div class="text-4xl font-extrabold">Here are our heroes</div>
+            <h2 class="text-4xl font-extrabold">Here are our heroes</h2>
             <p class="text-lg leading-relaxed font-semibold m-4 text-gray-300">
               These heroes made this template possible
             </p>
@@ -572,9 +572,9 @@
           class="flex flex-wrap text-center justify-center"
         >
           <div class="w-full lg:w-6/12 px-4">
-            <div class="text-4xl font-semibold text-white">
+            <h2 class="text-4xl font-semibold text-white">
               Build Something Great
-            </div>
+            </h2>
             <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-400">
               Elevate your digital presence with our cutting-edge solutions
               tailored just for you. Let's innovate together.
