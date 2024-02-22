@@ -52,12 +52,6 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/main.scss"],
 
-  postcss: {
-    plugins: {
-      "postcss-import": true,
-    },
-  },
-
   runtimeConfig: {
     public: {
       siteIcons: siteLogoIcons,
