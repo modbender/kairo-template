@@ -5,7 +5,7 @@
       class="bg-white/90 container mx-auto p-6 md:p-16 w-full min-h-screen rounded-2xl"
     >
       <div class="prose max-w-none text-black">
-        <div class="text-center text-5xl font-extrabold">CONTACT US</div>
+        <h1 class="text-center text-5xl font-extrabold">CONTACT US</h1>
         <div class="mt-8">
           <h2>Get in Touch with [Your Company Name]</h2>
           <p>
@@ -59,6 +59,15 @@
 
 <script setup>
 defineOgImageComponent("NuxtSeo");
+
+useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: [
+      { name: "Home", item: "/" },
+      { name: "Contact Us", item: "/contact" },
+    ],
+  }),
+]);
 
 useSeoMeta({
   title: "Contact",

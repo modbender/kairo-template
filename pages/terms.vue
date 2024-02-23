@@ -113,6 +113,15 @@
 <script setup>
 defineOgImageComponent("NuxtSeo");
 
+useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: [
+      { name: "Home", item: "/" },
+      { name: "Terms & Conditions", item: "/terms" },
+    ],
+  }),
+]);
+
 useSeoMeta({
   title: "Terms & Conditions",
   description: "Terms and Conditions",

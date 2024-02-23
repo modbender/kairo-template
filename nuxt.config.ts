@@ -56,11 +56,12 @@ export default defineNuxtConfig({
     plugins: {
       autoprefixer: {},
       "postcss-import": {},
-      "tailwindcss/nesting": {},
+      "tailwindcss/nesting": "postcss-nesting",
       tailwindcss: {},
       "postcss-lightningcss": {
         browsers: ">= .25%",
       },
+      ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
     },
   },
 

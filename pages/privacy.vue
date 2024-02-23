@@ -57,6 +57,15 @@
 <script setup>
 defineOgImageComponent("NuxtSeo");
 
+useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: [
+      { name: "Home", item: "/" },
+      { name: "Privacy Policy", item: "/privacy" },
+    ],
+  }),
+]);
+
 useSeoMeta({
   title: "Privacy Policy",
   description: "Privacy and Policy",

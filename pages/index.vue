@@ -43,7 +43,7 @@
                 >
                   <Icon name="mdi:android" size="64" />
                 </div>
-                <div class="text-xl font-semibold">Android Apps</div>
+                <div class="text-xl font-semibold">Android</div>
                 <p class="mt-2 mb-4 text-gray-600">
                   Building seamless Android apps and games
                 </p>
@@ -275,7 +275,7 @@
               </ul>
               <div class="my-10 text-center lg:text-left">
                 <a
-                  class="no-anim text-white bg-green-700 hover:bg-green-800 font-bold text-xl rounded-lg text-sm px-7 py-4 me-2 mb-2 bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-green-800"
+                  class="no-anim text-white bg-green-700 hover:bg-green-800 focus:ring-green-800 font-bold text-xl rounded-lg px-7 py-4 me-2 mb-2 focus:outline-none"
                   aria-label="Check our apps on Google Play"
                   href="https://play.google.com/"
                   target="_blank"
@@ -297,7 +297,7 @@
     <!-- BEGIN STAFF SECTION  -->
     <section class="relative pt-20 pb-20 lg:pb-36 text-white">
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
-        <span class="w-full h-full absolute opacity-50 bg-pink-600"></span>
+        <span class="w-full h-full absolute opacity-50 bg-blue-600"></span>
       </div>
       <div class="container mx-auto px-4">
         <div
@@ -509,9 +509,9 @@
       <div
         class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6"
       >
-        <h2 class="text-4xl font-extrabold">Testimonials</h2>
+        <Icon size="96" class="text-white" name="mdi:format-quote-open" />
+        <h2 class="text-4xl font-extrabold mb-7">Testimonials</h2>
         <div class="max-w-screen-md mx-auto">
-          <Icon size="96" class="text-white" name="mdi:format-quote-open" />
           <LazySwiper
             class="testimonial-swiper"
             :modules="[SwiperAutoplay, SwiperPagination]"
@@ -737,7 +737,7 @@ const defaultOgImage = useDefaultOgImage();
 
 onMounted(() => {
   $AOS.init({
-    offset: 160,
+    offset: 150,
     duration: 1000,
   });
 });
@@ -752,6 +752,7 @@ useSchemaOrg([
 
 useSeoMeta({
   title: "Home",
+  description: "Kairo Template Homepage",
   twitterCard: "summary_large_image",
   ogImage: [...defaultOgImage],
 });

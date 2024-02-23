@@ -68,6 +68,15 @@
 <script setup>
 defineOgImageComponent("NuxtSeo");
 
+useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: [
+      { name: "Home", item: "/" },
+      { name: "About", item: "/about" },
+    ],
+  }),
+]);
+
 useSeoMeta({
   title: "About",
   description: "About Kairo Template",

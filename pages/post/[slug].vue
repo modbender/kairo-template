@@ -15,7 +15,7 @@
           Example Post - <span class="capitalize">{{ route.params.slug }}</span>
         </h1>
         <div class="mt-8">
-          <h1>Title H1</h1>
+          <h2>Title H2</h2>
           <p>
             <strong>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -24,23 +24,16 @@
             sit provident doloribus rem voluptatibus tenetur odio ipsum
             similique temporibus architecto eveniet pariatur?
           </p>
-          <h2>Title H2</h2>
+          <h3>Title H3</h3>
           <p>
             <i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</i>
             Numquam ad id repellat, placeat porro iste exercitationem assumenda
             sit provident doloribus rem voluptatibus tenetur odio ipsum
             similique temporibus architecto eveniet pariatur?
           </p>
-          <h3>Title H3</h3>
-          <p>
-            <u>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</u>
-            Numquam ad id repellat, placeat porro iste exercitationem assumenda
-            sit provident doloribus rem voluptatibus tenetur odio ipsum
-            similique temporibus architecto eveniet pariatur?
-          </p>
           <h4>Title H4</h4>
           <p>
-            <s>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</s>
+            <u>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</u>
             Numquam ad id repellat, placeat porro iste exercitationem assumenda
             sit provident doloribus rem voluptatibus tenetur odio ipsum
             similique temporibus architecto eveniet pariatur?
@@ -56,8 +49,19 @@ const route = useRoute();
 
 defineOgImageComponent("NuxtSeo");
 
+useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: [
+      { name: "Home", item: "/" },
+      { name: "Blog", item: "/blog" },
+      { name: route.params.slug, item: route.path },
+    ],
+  }),
+]);
+
 useSeoMeta({
-  title: "About",
-  description: "About Kairo Template",
+  title: "Example Post Title",
+  twitterCard: "summary_large_image",
+  description: "Example Post Description",
 });
 </script>

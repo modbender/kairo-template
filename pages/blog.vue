@@ -62,8 +62,17 @@ const postList = ref(postListData);
 
 defineOgImageComponent("NuxtSeo");
 
+useSchemaOrg([
+  defineBreadcrumb({
+    itemListElement: [
+      { name: "Home", item: "/" },
+      { name: "Blog", item: "/blog" },
+    ],
+  }),
+]);
+
 useSeoMeta({
   title: "Blog",
-  description: "Blog Posts",
+  description: "Blog Posts List",
 });
 </script>
