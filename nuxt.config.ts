@@ -52,6 +52,18 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/main.scss"],
 
+  postcss: {
+    plugins: {
+      autoprefixer: {},
+      "postcss-import": {},
+      "tailwindcss/nesting": {},
+      tailwindcss: {},
+      "postcss-lightningcss": {
+        browsers: ">= .25%",
+      },
+    },
+  },
+
   runtimeConfig: {
     public: {
       siteIcons: siteLogoIcons,

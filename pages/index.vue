@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- BEGIN HERO SECTION  -->
     <div
       class="relative pt-16 pb-32 flex content-center items-center justify-center"
       style="min-height: 75vh"
@@ -21,11 +22,14 @@
         </div>
       </div>
     </div>
+    <!-- END HERO SECTION  -->
+    <!-- BEGIN ABOUT SECTION  -->
     <section class="relative pb-20 -mt-24">
       <div class="absolute mt-48 top-auto w-full h-full bg-center bg-cover">
         <span class="w-full h-full absolute bg-purple-700"></span>
       </div>
       <div class="container mx-auto px-4">
+        <!-- BEGIN FEATURES SECTION  -->
         <div class="flex flex-wrap">
           <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
             <div
@@ -164,6 +168,8 @@
         </div>
       </div>
     </section>
+    <!-- END ABOUT SECTION  -->
+    <!-- BEGIN SHOWCASE SECTION  -->
     <section class="relative bg-white py-20">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -287,6 +293,8 @@
         </div>
       </div>
     </section>
+    <!-- END SHOWCASE SECTION  -->
+    <!-- BEGIN STAFF SECTION  -->
     <section class="relative pt-20 pb-20 lg:pb-36 text-white">
       <div class="absolute top-0 w-full h-full bg-center bg-cover">
         <span class="w-full h-full absolute opacity-50 bg-pink-600"></span>
@@ -495,10 +503,13 @@
         </div>
       </div>
     </section>
-    <section class="bg-blue-900 pt-10 pb-10 lg:pb-20">
+    <!-- END STAFF SECTION  -->
+    <!-- BEGIN TESTIMONIAL SECTION  -->
+    <section class="bg-blue-900 text-white pt-10 pb-10 lg:pb-20">
       <div
         class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6"
       >
+        <h2 class="text-4xl font-extrabold">Testimonials</h2>
         <div class="max-w-screen-md mx-auto">
           <Icon size="96" class="text-white" name="mdi:format-quote-open" />
           <LazySwiper
@@ -546,6 +557,8 @@
         </div>
       </div>
     </section>
+    <!-- END TESTIMONIAL SECTION  -->
+    <!-- BEGIN INSIGHT SECTION  -->
     <section class="pb-20 relative block bg-gray-900">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-[79px]"
@@ -631,6 +644,8 @@
         </div>
       </div>
     </section>
+    <!-- END INSIGHT SECTION  -->
+    <!-- BEGIN CONTACT SECTION  -->
     <section id="contact" class="relative block py-24 lg:pt-0 bg-gray-900">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
@@ -709,6 +724,7 @@
         </div>
       </div>
     </section>
+    <!-- END CONTACT SECTION  -->
   </div>
 </template>
 
