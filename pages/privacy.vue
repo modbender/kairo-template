@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-24 mb-32">
+  <div class="mt-24 mb-32 px-5">
     <Particles />
     <div
       class="bg-white/95 container mx-auto p-6 md:p-16 w-full min-h-screen rounded-2xl"

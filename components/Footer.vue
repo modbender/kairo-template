@@ -64,23 +64,11 @@
           </div>
         </div>
         <div class="w-full lg:w-6/12">
-          <div class="flex flex-wrap items-top mb-6 mt-8 lg:mt-0">
+          <div
+            class="flex flex-wrap items-top uppercase mb-6 mt-8 lg:mt-0 text-center md:text-left"
+          >
             <div class="w-6/12 lg:w-4/12 px-4 ml-auto">
-              <span
-                class="block uppercase text-gray-600 text-sm font-bold mb-2"
-              >
-                Useful Links
-              </span>
               <ul class="list-unstyled">
-                <li>
-                  <NuxtLink
-                    aria-label="About Us Page"
-                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
-                    to="/about"
-                  >
-                    About Us
-                  </NuxtLink>
-                </li>
                 <li>
                   <NuxtLink
                     aria-label="Blog Page"
@@ -110,14 +98,18 @@
                     Donate
                   </a>
                 </li>
+                <li>
+                  <NuxtLink
+                    aria-label="About Us Page"
+                    class="text-gray-700 hover:text-gray-900 block pb-2 text-sm"
+                    to="/about"
+                  >
+                    About Us
+                  </NuxtLink>
+                </li>
               </ul>
             </div>
             <div class="w-6/12 lg:w-4/12 px-4">
-              <span
-                class="block uppercase text-gray-600 text-sm font-bold mb-2"
-              >
-                Other Resources
-              </span>
               <ul class="list-unstyled">
                 <li>
                   <NuxtLink

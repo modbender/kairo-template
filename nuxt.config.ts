@@ -1,4 +1,4 @@
-const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || "https://127.0.0.1:3000";
+const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
 const siteLogoIcons = [
   {
@@ -52,32 +52,19 @@ export default defineNuxtConfig({
 
   css: ["@/assets/scss/main.scss"],
 
-  postcss: {
-    plugins: {
-      autoprefixer: {},
-      "postcss-import": {},
-      "tailwindcss/nesting": "postcss-nesting",
-      tailwindcss: {},
-      "postcss-lightningcss": {
-        browsers: ">= .25%",
-      },
-      ...(process.env.NODE_ENV === "production" ? { cssnano: {} } : {}),
-    },
-  },
-
   runtimeConfig: {
     public: {
       siteIcons: siteLogoIcons,
 
       socialLinks: {
-        x: process.env.NUXT_PUBLIC_SOCIAL_X_URL,
-        youtube: process.env.NUXT_PUBLIC_SOCIAL_YOUTUBE_URL,
-        github: process.env.NUXT_PUBLIC_SOCIAL_GITHUB_URL,
-        facebook: process.env.NUXT_PUBLIC_SOCIAL_FACEBOOK_URL,
-        dribbble: process.env.NUXT_PUBLIC_SOCIAL_DRIBBBLE_URL,
+        x: process.env.NUXT_PUBLIC_SOCIAL_X_URL || "#",
+        youtube: process.env.NUXT_PUBLIC_SOCIAL_YOUTUBE_URL || "#",
+        github: process.env.NUXT_PUBLIC_SOCIAL_GITHUB_URL || "#",
+        facebook: process.env.NUXT_PUBLIC_SOCIAL_FACEBOOK_URL || "#",
+        dribbble: process.env.NUXT_PUBLIC_SOCIAL_DRIBBBLE_URL || "#",
       },
 
-      gtagId: process.env.NUXT_PUBLIC_GOOGLE_TAG_ID,
+      gtagId: process.env.NUXT_PUBLIC_GOOGLE_TAG_ID || "",
     },
   },
 
@@ -133,8 +120,9 @@ export default defineNuxtConfig({
 
   site: {
     url: siteUrl,
-    name: process.env.NUXT_PUBLIC_SITE_NAME, // Will be displayed on home page
-    description: process.env.NUXT_PUBLIC_SITE_DESCRIPTION,
+    name: process.env.NUXT_PUBLIC_SITE_NAME || "Kairo Template", // Will be displayed on home page
+    description: process.env.NUXT_PUBLIC_SITE_DESCRIPTION || "Kairo Template",
+    favicon: process.env.NUXT_PUBLIC_SITE_FAVICON_URL || "#",
   },
 
   image: {
