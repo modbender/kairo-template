@@ -89,6 +89,10 @@ export default defineNuxtConfig({
 
   devtools: { enabled: true }, // Enabled only for dev automatically
 
+  experimental: {
+    inlineSSRStyles: false,
+  },
+
   modules: [
     //https://html-validator.nuxtjs.org/
     "@nuxtjs/html-validator",
