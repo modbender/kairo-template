@@ -1,7 +1,5 @@
 # Kairo Template
 
-## **Description:**
-
 **Kairo** (the Japanese word for "**circuit**") is the premier startup and app developer template designed to forge connections with your clients. It is built with the Nuxt 3 framework and powered by Vue 3 JS, featuring an easily customizable particle graphic background and code. If you're a startup or an app developer in search of an instantly deployable template, this is the perfect choice for you!
 
 I believe all the necessary files have been provided. However, if you think something is missing, please feel free to comment about it, and I will reply as soon as possible.
