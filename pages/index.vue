@@ -655,7 +655,7 @@
               class="relative flex flex-col min-w-0 break-words w-full mt-16 lg:mt-6 mb-6 shadow-lg shadow-purple-400 rounded-lg bg-gray-300"
             >
               <div class="flex-auto p-5 lg:p-10">
-                <div class="text-2xl font-semibold">Want to work with us?</div>
+                <h2 class="text-2xl font-semibold">Want to work with us?</h2>
                 <p class="leading-relaxed mt-1 mb-4 text-gray-600">
                   Complete this form and we will get back to you in 24 hours
                 </p>
