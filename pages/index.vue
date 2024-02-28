@@ -334,27 +334,9 @@
                   Web Developer
                 </p>
                 <div class="mt-6">
-                  <button
-                    aria-label="Go to Twitter Page"
-                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:twitter" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Facebook Page"
-                    class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:facebook" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Dribbble Page"
-                    class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:dribbble" size="24" />
-                  </button>
+                  <ButtonSocial social="twitter" href="#" />
+                  <ButtonSocial social="facebook" href="#" />
+                  <ButtonSocial social="dribbble" href="#" />
                 </div>
               </div>
             </div>
@@ -381,20 +363,8 @@
                   Game Developer
                 </p>
                 <div class="mt-6">
-                  <button
-                    aria-label="Go to Google Page"
-                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:google" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Facebook Page"
-                    class="bg-blue-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:facebook" size="24" />
-                  </button>
+                  <ButtonSocial social="github" href="#" />
+                  <ButtonSocial social="facebook" href="#" />
                 </div>
               </div>
             </div>
@@ -421,27 +391,9 @@
                   UI/UX Designer
                 </p>
                 <div class="mt-6">
-                  <button
-                    aria-label="Go to Google Page"
-                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:google" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Twitter Page"
-                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:twitter" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Instagram Page"
-                    class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:instagram" size="24" />
-                  </button>
+                  <ButtonSocial social="github" href="#" />
+                  <ButtonSocial social="twitter" href="#" />
+                  <ButtonSocial social="instagram" href="#" />
                 </div>
               </div>
             </div>
@@ -468,34 +420,10 @@
                   Python Developer
                 </p>
                 <div class="mt-6">
-                  <button
-                    aria-label="Go to Dribbble Page"
-                    class="bg-pink-500 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:dribbble" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Google Page"
-                    class="bg-red-600 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:google" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Twitter Page"
-                    class="bg-blue-400 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:twitter" size="24" />
-                  </button>
-                  <button
-                    aria-label="Go to Instagram Page"
-                    class="bg-gray-800 text-white w-10 h-10 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button"
-                  >
-                    <Icon name="mdi:instagram" size="24" />
-                  </button>
+                  <ButtonSocial social="dribbble" href="#" />
+                  <ButtonSocial social="github" href="#" />
+                  <ButtonSocial social="twitter" href="#" />
+                  <ButtonSocial social="instagram" href="#" />
                 </div>
               </div>
             </div>

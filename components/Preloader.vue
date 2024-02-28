@@ -11,6 +11,8 @@
 <script setup>
 const preloaderRef = ref();
 
+// https://loading.io/css/
+
 onMounted(() => {
   const fadeEffect = setInterval(() => {
     // if we don't set opacity 1 in CSS, then
