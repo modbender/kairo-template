@@ -441,6 +441,7 @@
         <h2 class="text-4xl font-extrabold mb-7">Testimonials</h2>
         <div class="max-w-screen-md mx-auto">
           <LazySwiper
+            v-if="!!testimonialData && testimonialData.length > 0"
             class="testimonial-swiper"
             :modules="[SwiperAutoplay, SwiperPagination]"
             :slides-per-view="1"
@@ -657,7 +658,7 @@
 </template>
 
 <script setup>
-import testimonialData from "@/data/testimonial.json";
+import testimonialData from "@/data/testimonials.json";
 
 const { $AOS } = useNuxtApp();
 
