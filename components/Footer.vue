@@ -32,7 +32,7 @@
             <a
               target="_blank"
               aria-label="Check Twitter profile"
-              class="no-anim text-blue-400 font-normal items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              class="no-anim text-blue-400 font-normal items-center justify-center  rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.x"
             >
               <Icon name="mdi:twitter" size="36" />
@@ -40,7 +40,7 @@
             <a
               target="_blank"
               aria-label="Check Facebook profile"
-              class="no-anim text-blue-600 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              class="no-anim text-blue-600 font-normal h-10 w-10 items-center justify-center  rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.facebook"
             >
               <Icon name="mdi:facebook" size="36" />
@@ -48,7 +48,7 @@
             <a
               target="_blank"
               aria-label="Check Dribbble profile"
-              class="no-anim text-pink-400 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              class="no-anim text-pink-400 font-normal h-10 w-10 items-center justify-center  rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.dribbble"
             >
               <Icon name="mdi:dribbble" size="36" />
@@ -56,7 +56,7 @@
             <a
               target="_blank"
               aria-label="Check GitHub profile"
-              class="no-anim text-gray-900 font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+              class="no-anim text-gray-900 font-normal h-10 w-10 items-center justify-center  rounded-full outline-none focus:outline-none mr-2"
               :href="$config.public.socialLinks.github"
             >
               <Icon name="mdi:github" size="36" />

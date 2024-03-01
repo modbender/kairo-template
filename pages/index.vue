@@ -64,7 +64,7 @@
                 </div>
                 <div class="text-xl font-semibold">Websites</div>
                 <p class="mt-2 mb-4 text-gray-600">
-                  Designing engaging websites that achieve perfect 100 PageSpeed
+                  Designing engaging websites that achieve perfect PageSpeed
                   scores.
                 </p>
               </div>
@@ -133,7 +133,7 @@
               <NuxtImg
                 alt="Top Notch Services"
                 src="https://cdn.pixabay.com/photo/2023/02/09/18/42/podcast-7779510_1280.png"
-                class="w-full align-middle rounded-t-lg"
+                class="w-full rounded-t-lg"
                 sizes="300px md:400px lg:500px"
                 width="1280"
                 height="961"
@@ -452,7 +452,7 @@
             }"
             :autoplay="{
               delay: 3000,
-              disableOnInteraction: true,
+              disableOnInteraction: false,
             }"
           >
             <SwiperSlide
